@@ -1,0 +1,86 @@
+<svg width="400" height="500" viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FCFAF6"/>
+      <stop offset="100%" stop-color="#ECE5D8"/>
+    </radialGradient>
+    
+    <!-- 3D Shopify Green Gradient -->
+    <linearGradient id="shopifyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A2D783"/>
+      <stop offset="30%" stop-color="#7AB55C"/>
+      <stop offset="100%" stop-color="#4E8233"/>
+    </linearGradient>
+
+    <!-- 3D Reflective Gold Gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2CE"/>
+      <stop offset="30%" stop-color="#E5BA42"/>
+      <stop offset="70%" stop-color="#B28A18"/>
+      <stop offset="100%" stop-color="#E5BA42"/>
+    </linearGradient>
+
+    <!-- Glass gloss overlay -->
+    <linearGradient id="glassGloss" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- High-end drop shadow -->
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#544B3D" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="500" rx="20" fill="url(#bgGrad)"/>
+  
+  <!-- Grid Lines -->
+  <path d="M80 0V500M160 0V500M240 0V500M320 0V500" stroke="#E3DACB" stroke-width="1.5" opacity="0.6"/>
+  <path d="M0 100H400M0 200H400M0 300H400M0 400H400" stroke="#E3DACB" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Glowing orb -->
+  <circle cx="200" cy="230" r="110" fill="#7AB55C" opacity="0.08" filter="blur(35px)"/>
+
+  <!-- Wireframe Block 1 (Top Left) -->
+  <g transform="translate(50, 110)" filter="url(#shadow)">
+    <rect width="130" height="70" rx="10" fill="#FFFFFF" stroke="#DECFAF" stroke-width="2"/>
+    <rect x="10" y="10" width="35" height="50" rx="6" fill="#7AB55C" opacity="0.15"/>
+    <line x1="55" y1="22" x2="110" y2="22" stroke="#605B54" stroke-width="4.5" stroke-linecap="round"/>
+    <line x1="55" y1="38" x2="95" y2="38" stroke="#DECFAF" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Wireframe Block 2 (Bottom Right) -->
+  <g transform="translate(220, 290)" filter="url(#shadow)">
+    <rect width="130" height="70" rx="10" fill="#FFFFFF" stroke="#DECFAF" stroke-width="2"/>
+    <circle cx="30" cy="35" r="18" fill="url(#goldGrad)" opacity="0.2"/>
+    <line x1="60" y1="28" x2="110" y2="28" stroke="#605B54" stroke-width="4.5" stroke-linecap="round"/>
+    <line x1="60" y1="44" x2="90" y2="44" stroke="#DECFAF" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Central Shopify Bag -->
+  <g transform="translate(155, 185)" filter="url(#shadow)">
+    <!-- Bag Handle -->
+    <path d="M35 15 C35 -5, 55 -5, 55 15" fill="none" stroke="#7AB55C" stroke-width="5" stroke-linecap="round"/>
+    <!-- Bag Body -->
+    <path d="M15 20 L75 20 L68 98 L22 98 Z" fill="url(#shopifyGrad)"/>
+    <!-- Highlight Overlay -->
+    <path d="M15 20 L75 20 L68 98 L22 98 Z" fill="url(#glassGloss)" opacity="0.4"/>
+    <!-- Shopify S logo -->
+    <path d="M43 45 C43 38, 48 38, 48 43 C48 48, 41 47, 41 53 C41 58, 48 58, 48 53" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- floating palette -->
+  <g transform="translate(295, 105)" filter="url(#shadow)">
+    <circle cx="20" cy="20" r="25" fill="#FFFFFF" stroke="url(#goldGrad)" stroke-width="2"/>
+    <circle cx="20" cy="20" r="25" fill="url(#glassGloss)" opacity="0.3"/>
+    <circle cx="12" cy="12" r="5" fill="#7AB55C"/>
+    <circle cx="28" cy="12" r="5" fill="url(#goldGrad)"/>
+    <circle cx="20" cy="28" r="5" fill="#5A9D35"/>
+  </g>
+
+  <!-- Service Text -->
+  <text x="200" y="465" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="800" fill="#3D362A" letter-spacing="1">BESPOKE THEME CUSTOMIZATION</text>
+</svg>

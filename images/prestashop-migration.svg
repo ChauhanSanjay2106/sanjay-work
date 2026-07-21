@@ -1,0 +1,79 @@
+<svg width="400" height="500" viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FCFAF6"/>
+      <stop offset="100%" stop-color="#ECE5D8"/>
+    </radialGradient>
+    
+    <!-- 3D Shopify Green Gradient -->
+    <linearGradient id="shopifyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A2D783"/>
+      <stop offset="30%" stop-color="#7AB55C"/>
+      <stop offset="100%" stop-color="#4E8233"/>
+    </linearGradient>
+
+    <!-- PrestaShop Magenta Gradient -->
+    <linearGradient id="prestaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EA1D6F"/>
+      <stop offset="100%" stop-color="#A80D47"/>
+    </linearGradient>
+
+    <!-- 3D Reflective Gold Gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2CE"/>
+      <stop offset="30%" stop-color="#E5BA42"/>
+      <stop offset="70%" stop-color="#B28A18"/>
+      <stop offset="100%" stop-color="#E5BA42"/>
+    </linearGradient>
+
+    <!-- Glass gloss overlay -->
+    <linearGradient id="glassGloss" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- High-end drop shadow -->
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#544B3D" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="500" rx="20" fill="url(#bgGrad)"/>
+  
+  <!-- Grid Lines -->
+  <path d="M80 0V500M160 0V500M240 0V500M320 0V500" stroke="#E3DACB" stroke-width="1.5" opacity="0.6"/>
+  <path d="M0 100H400M0 200H400M0 300H400M0 400H400" stroke="#E3DACB" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Transition pipeline arc -->
+  <path d="M110 230 C 150 160, 210 160, 240 220" fill="none" stroke="url(#goldGrad)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M236 210 L 244 222 L 230 222" fill="url(#goldGrad)"/>
+
+  <!-- Glowing orb -->
+  <circle cx="200" cy="230" r="110" fill="#7AB55C" opacity="0.08" filter="blur(35px)"/>
+
+  <!-- Left: PrestaShop block -->
+  <g transform="translate(50, 195)" filter="url(#shadow)">
+    <rect width="80" height="80" rx="20" fill="url(#prestaGrad)"/>
+    <rect width="80" height="80" rx="20" fill="url(#glassGloss)" opacity="0.3"/>
+    <!-- PrestaShop Logo metaphor P -->
+    <path d="M30 52 V28 H46 C52 28, 56 32, 56 38 C56 44, 52 48, 46 48 H30" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Right: Shopify Bag -->
+  <g transform="translate(245, 180)" filter="url(#shadow)">
+    <!-- Bag Handle -->
+    <path d="M35 15 C35 -5, 55 -5, 55 15" fill="none" stroke="#7AB55C" stroke-width="5" stroke-linecap="round"/>
+    <!-- Bag Body -->
+    <path d="M15 20 L75 20 L68 98 L22 98 Z" fill="url(#shopifyGrad)"/>
+    <!-- Highlight Overlay -->
+    <path d="M15 20 L75 20 L68 98 L22 98 Z" fill="url(#glassGloss)" opacity="0.4"/>
+    <!-- Shopify S logo -->
+    <path d="M43 45 C43 38, 48 38, 48 43 C48 48, 41 47, 41 53 C41 58, 48 58, 48 53" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Service Text -->
+  <text x="200" y="465" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="800" fill="#3D362A" letter-spacing="1">PRESTASHOP TO SHOPIFY</text>
+</svg>

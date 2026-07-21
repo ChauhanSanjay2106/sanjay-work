@@ -1,0 +1,2680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Personal portfolio of Sanjay Chauhan, a passionate Shopify Developer specializing in custom liquid themes, conversion optimization, and custom integrations.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjay Chauhan | Premium Shopify Theme & Custom Store Developer</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Inter:wght@300;400;500;600;700&family=Syncopate:wght@400;700&family=DotGothic16&family=Bebas+Neue&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/Favicon.png">
+</head>
+
+<body class="theme-dark preloader-active">
+
+    <!-- Premium Preloader -->
+    <div id="preloader" class="preloader">
+        <div class="preloader-wrapper">
+            <div class="preloader-content">
+                <div class="preloader-logo">Loading...</div>
+                <div class="preloader-percentage"><span id="preloader-count">0</span>%</div>
+            </div>
+            <div class="preloader-progress-bar">
+                <div class="preloader-progress-fill" id="preloader-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3-Pill Header -->
+    <header class="header-wrapper">
+        <a href="#" class="nav-pill nav-pill-logo" id="nav-logo">
+            <img src="images/Logo.png" alt="Sanjay Chauhan Logo">
+        </a>
+        <div class="nav-pill nav-pill-links">
+            <div class="nav-active-pill-bg"></div>
+            <a href="#about" class="nav-icon-link" data-tooltip="About">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="8" r="4"/>
+                    <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+                </svg>
+                <span class="nav-text">About</span>
+            </a>
+            <a href="#experience" class="nav-icon-link" data-tooltip="Experience">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                </svg>
+                <span class="nav-text">Experience</span>
+            </a>
+            <a href="#skills" class="nav-icon-link" data-tooltip="Skills">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="16 18 22 12 16 6"/>
+                    <polyline points="8 6 2 12 8 18"/>
+                    <line x1="12" y1="2" x2="12" y2="22"/>
+                </svg>
+                <span class="nav-text">Skills</span>
+            </a>
+            <a href="#expertise" class="nav-icon-link" data-tooltip="Expertise">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                </svg>
+                <span class="nav-text">Expertise</span>
+            </a>
+            <a href="#services" class="nav-icon-link" data-tooltip="Services">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+                    <polyline points="2 17 12 22 22 17"/>
+                    <polyline points="2 12 12 17 22 12"/>
+                </svg>
+                <span class="nav-text">Services</span>
+            </a>
+            <a href="#approach" class="nav-icon-link" data-tooltip="Approach">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"/>
+                    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
+                </svg>
+                <span class="nav-text">Approach</span>
+            </a>
+            <a href="#portfolio" class="nav-icon-link" data-tooltip="Portfolio">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>
+                </svg>
+                <span class="nav-text">Portfolio</span>
+            </a>
+            <a href="#insights" class="nav-icon-link" data-tooltip="Insights">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                </svg>
+                <span class="nav-text">Insights</span>
+            </a>
+        </div>
+        <a href="#contact" class="nav-pill nav-pill-contact" aria-label="Contact">
+            <span>Contact</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+            </svg>
+        </a>
+    </header>
+
+    <!-- Slide Over Menu -->
+    <div class="slide-overlay" id="slide-overlay"
+        onclick="document.getElementById('slide-over').classList.remove('active'); document.getElementById('slide-overlay').classList.remove('active');">
+    </div>
+    <div class="slide-over" id="slide-over">
+        <div class="slide-close"
+            onclick="document.getElementById('slide-over').classList.remove('active'); document.getElementById('slide-overlay').classList.remove('active');">
+            ✕</div>
+        <div class="slide-content">
+            <h2>Ready to get started?</h2>
+            <ul>
+                <li><a href="#contact" onclick="document.getElementById('slide-over').classList.remove('active'); document.getElementById('slide-overlay').classList.remove('active');">Start a project</a></li>
+                <li><a href="portfolio.html">View our work</a></li>
+                <li><a href="services.html">Our expertise</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="section-hero theme-section" data-theme="dark">
+            <div class="hero-center-image">
+                <img src="images/Sanjay-img.png" alt="Lesse Studio 3D Object">
+            </div>
+            <div class="hero-bottom-container">
+                <div class="hero-text-block">
+                    <p class="hero-label">SHOPIFY DEVELOPER</p>
+                    <h1 class="hero-headline">
+                        <span class="text-white">Hi, I'm Chauhan Sanjay. <br>Shopify Developer passionate about building premium storefronts.</span>
+                        <span class="text-muted">Specializing in Liquid, custom theme development, and conversion optimization that helps brands grow online.</span>
+                    </h1>
+                </div>
+                <div class="hero-action-block">
+                    <a href="#contact" class="btn-hero-start">Start a Project <svg width="14" height="14"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg></a>
+                </div>
+            </div>
+            <div class="hero-scroll-indicator">
+                Scroll <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+            </div>
+        </section>
+
+        <!-- About Me Section (Triggers Dark Theme) -->
+        <section class="section-about theme-section" data-theme="dark" id="about">
+            <div class="about-bg-grid"></div>
+            <div class="about-ambient-glow"></div>
+            <div class="container">
+                <!-- Section Header -->
+                <div class="about-header">
+                    <!-- <span class="about-section-lbl">[ OVERVIEW ]</span> -->
+                    <h2 class="about-section-title">About Me</h2>
+                    <p class="about-section-desc">Discover my professional journey, core metrics, and academic
+                        foundation in web technologies.</p>
+                </div>
+
+                <!-- Bento Grid Layout -->
+                <div class="about-bento-grid">
+                    <!-- Card 1: Biography (Spans 7 cols) -->
+                    <div class="about-bento-card about-bento-bio" id="bento-bio">
+                        <div class="about-card-spotlight"></div>
+                        <div class="bento-card-header">
+                            <span class="bento-card-badge">BIOGRAPHY</span>
+                        </div>
+                        <div class="bento-card-body">
+                            <h3 class="about-subtitle">Passionate <span class="highlight-gold">Shopify Developer</span>
+                            </h3>
+                            <div class="about-bio-text">
+                                <p class="bio-lead">With over one years of hands-on experience in Shopify theme
+                                    development, I specialize in creating custom, responsive, and conversion-optimized
+                                    storefronts that elevate brands.</p>
+                                <p>My expertise spans liquid programming, headless architecture, app integration, speed
+                                    optimization, and custom sections. I bridge the gap between design vision and
+                                    technical implementation, delivering pixel-perfect code that performs.</p>
+                                <p>Currently at Meetanshi, I engineer robust eCommerce solutions, resolve complex app
+                                    conflicts, and mentor junior developers to drive team success and maintain clean
+                                    codebases.</p>
+                            </div>
+                            <div class="about-tech-stack">
+                                <span class="tech-pill">Liquid</span>
+                                <span class="tech-pill">JavaScript</span>
+                                <span class="tech-pill">HTML/CSS</span>
+                                <span class="tech-pill">Tailwind CSS</span>
+                                <span class="tech-pill">Shopify Theme 2.0</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Education (Spans 5 cols) -->
+                    <div class="about-bento-card about-bento-edu" id="bento-education">
+                        <div class="about-card-spotlight"></div>
+                        <div class="bento-card-header">
+                            <span class="bento-card-badge">EDUCATION</span>
+                        </div>
+                        <div class="bento-card-body">
+                            <div class="bento-edu-timeline">
+                                <div class="bento-timeline-line"></div>
+
+                                <!-- Item 1 -->
+                                <div class="bento-edu-item">
+                                    <div class="bento-edu-node"></div>
+                                    <div class="bento-edu-content">
+                                        <div class="bento-edu-header">
+                                            <span class="bento-edu-period">2020 - 2023</span>
+                                            <span class="bento-edu-status status-ongoing">Completed</span>
+                                        </div>
+                                        <h4 class="bento-edu-title">BCA Degree</h4>
+                                        <p class="bento-edu-inst">Shree Swaminarayan College of Computer Science - Maharaja Krishnakumarsinhji Bhavnagar University</p>
+                                    </div>
+                                </div>
+
+                                <!-- Item 2 -->
+                                <div class="bento-edu-item">
+                                    <div class="bento-edu-node"></div>
+                                    <div class="bento-edu-content">
+                                        <div class="bento-edu-header">
+                                            <span class="bento-edu-period">AUG-2023 - SEPT-2024</span>
+                                            <span class="bento-edu-status status-completed">Completed</span>
+                                        </div>
+                                        <h4 class="bento-edu-title">PHP Web Development</h4>
+                                        <p class="bento-edu-inst">ITHub Software Solutions - Bhavnagar</p>
+                                    </div>
+                                </div>
+
+                                <!-- Item 3 -->
+                                <div class="bento-edu-item">
+                                    <div class="bento-edu-node"></div>
+                                    <div class="bento-edu-content">
+                                        <div class="bento-edu-header">
+                                            <span class="bento-edu-period">SEPT-2024 - PRESENT</span>
+                                            <span class="bento-edu-status status-completed">Ongoing</span>
+                                        </div>
+                                        <h4 class="bento-edu-title">Training + Job - Shopify Development</h4>
+                                        <p class="bento-edu-inst">Meetanshi Technology - Bhavnagar</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Projects (Spans 4 cols) -->
+                    <div class="about-bento-card about-bento-stat projects-card" id="bento-projects">
+                        <div class="about-card-spotlight"></div>
+                        <div class="bento-card-header">
+                            <span class="bento-card-badge">PROJECTS</span>
+                        </div>
+                        <div class="bento-card-body stat-body">
+                            <div class="stat-main-row">
+                                <h4 class="stat-number">20+</h4>
+                                <span class="stat-unit">Stores</span>
+                            </div>
+                            <h5 class="stat-label">Successful Projects</h5>
+                            <p class="stat-desc">Delivering custom Shopify stores, performance optimizations, and
+                                integrations globally.</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 4: Mentoring (Spans 4 cols) -->
+                    <div class="about-bento-card about-bento-stat mentoring-card" id="bento-mentoring">
+                        <div class="about-card-spotlight"></div>
+                        <div class="bento-card-header">
+                            <span class="bento-card-badge">LEADERSHIP</span>
+                        </div>
+                        <div class="bento-card-body stat-body">
+                            <div class="stat-icon-row">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                                    <circle cx="9" cy="7" r="4" />
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                </svg>
+                            </div>
+                            <h5 class="stat-label">Mentoring & Culture</h5>
+                            <p class="stat-desc">Guiding junior developers at Meetanshi, establishing clean code
+                                standards, and solving complex architecture problems.</p>
+                            <div class="mentoring-tags">
+                                <span class="m-tag">Code Review</span>
+                                <span class="m-tag">Best Practices</span>
+                                <span class="m-tag">Mentoring</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5: Years of Experience (Spans 4 cols) -->
+                    <div class="about-bento-card about-bento-stat experience-card" id="bento-experience">
+                        <div class="about-card-spotlight"></div>
+                        <div class="bento-card-header">
+                            <span class="bento-card-badge">EXPERIENCE</span>
+                        </div>
+                        <div class="bento-card-body stat-body">
+                            <div class="stat-main-row">
+                                <h4 class="stat-number">1+</h4>
+                                <span class="stat-unit">Years</span>
+                            </div>
+                            <h5 class="stat-label">Years of Experience</h5>
+                            <p class="stat-desc">Specialized in Shopify custom theme architecture, conversion-focused
+                                design, and custom sections development.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section (Triggers Dark Theme) -->
+        <section class="section-experience theme-section" data-theme="dark" id="experience">
+            <div class="exp-bg-grid"></div>
+            <div class="exp-ambient-glow"></div>
+            <div class="container">
+                <!-- Section Header -->
+                <div class="experience-header">
+                    <h2 class="exp-section-title">Work Experience</h2>
+                    <p class="exp-section-desc">My professional journey in Shopify development, building expertise
+                        through hands-on experience and continuous learning.</p>
+                </div>
+
+                <div class="experience-split">
+                    <!-- Left Column: Meetanshi Technology -->
+                    <div class="experience-left-col">
+                        <div class="exp-console-card" id="experience-card-meetanshi">
+                            <!-- Background Watermark -->
+                            <div class="card-watermark-bg">
+                                <img src="images/Meetanshi.png" alt="Meetanshi Logo" />
+                            </div>
+                            <div class="exp-card-ribbon">
+                                <div class="ribbon-dots">
+                                    <span class="dot-red"></span>
+                                    <span class="dot-yellow"></span>
+                                    <span class="dot-green"></span>
+                                </div>
+                            </div>
+
+                            <div class="exp-card-body">
+                                <!-- Top Meta Ribbon -->
+                                <div class="exp-meta-ribbon">
+                                    <div class="meta-ribbon-item">
+                                        <span class="ribbon-lbl">EMPLOYER</span>
+                                        <span class="ribbon-val">Meetanshi Technology</span>
+                                    </div>
+                                    <div class="meta-ribbon-item">
+                                        <span class="ribbon-lbl">DURATION</span>
+                                        <span class="ribbon-val">SEPT-2024 — PRESENT</span>
+                                    </div>
+                                    <div class="meta-ribbon-item">
+                                        <span class="ribbon-lbl">LOCATION</span>
+                                        <span class="ribbon-val">Bhavnagar / India</span>
+                                    </div>
+                                </div>
+
+                                <div class="exp-role-header">
+                                    <div class="exp-role-info">
+                                        <span class="exp-badge">Shopify Dev</span>
+                                        <h3 class="exp-role-title">Training + Job - Shopify Development</h3>
+                                    </div>
+                                    <div class="exp-company-logo">
+                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                                            width="55" height="55" fill="currentColor">
+                                            <path
+                                                d="M15.337 23.979l7.216-1.561s-2.604-17.613-2.625-17.73c-.018-.116-.114-.192-.211-.192s-1.929-.136-1.929-.136-1.275-1.274-1.439-1.411c-.045-.037-.075-.057-.121-.074l-.914 21.104h.023zM11.71 11.305s-.81-.424-1.774-.424c-1.447 0-1.504.906-1.504 1.141 0 1.232 3.24 1.715 3.24 4.629 0 2.295-1.44 3.76-3.406 3.76-2.354 0-3.54-1.465-3.54-1.465l.646-2.086s1.245 1.066 2.28 1.066c.675 0 .975-.545.975-.932 0-1.619-2.654-1.694-2.654-4.359-.034-2.237 1.571-4.416 4.827-4.416 1.257 0 1.875.361 1.875.361l-.945 2.715-.02.01zM11.17.83c.136 0 .271.038.405.135-.984.465-2.064 1.639-2.508 3.992-.656.213-1.293.405-1.889.578C7.697 3.75 8.951.84 11.17.84V.83zm1.235 2.949v.135c-.754.232-1.583.484-2.394.736.466-1.777 1.333-2.645 2.085-2.971.193.501.309 1.176.309 2.1zm.539-2.234c.694.074 1.141.867 1.429 1.755-.349.114-.735.231-1.158.366v-.252c0-.752-.096-1.371-.271-1.871v.002zm2.992 1.289c-.02 0-.06.021-.078.021s-.289.075-.714.21c-.423-1.233-1.176-2.37-2.508-2.37h-.115C12.135.209 11.669 0 11.265 0 8.159 0 6.675 3.877 6.21 5.846c-1.194.365-2.063.636-2.16.674-.675.213-.694.232-.772.87-.075.462-1.83 14.063-1.83 14.063L15.009 24l.927-21.166z" />
+                                        </svg>
+                                    </div>
+                                </div>
+
+                                <p class="exp-overview">
+                                    Developed custom theme elements, section configurations, and optimized storefront layouts using Liquid templating.
+                                </p>
+
+                                <div class="exp-achievements-container">
+                                    <h4 class="exp-sub-title">Key Responsibilities & Achievements</h4>
+
+                                    <div class="exp-timeline-achievements">
+                                        <div class="achieve-timeline-line"></div>
+
+                                        <div class="achieve-item">
+                                            <div class="achieve-node"></div>
+                                            <div class="achieve-content">
+                                                <span class="achieve-tag">01 / ADMIN & LIQUID</span>
+                                                <p class="achieve-desc">Managed products, collections, and store settings in Shopify Admin. Developed and customized Shopify Liquid code for sections, templates, and themes.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="achieve-item">
+                                            <div class="achieve-node"></div>
+                                            <div class="achieve-content">
+                                                <span class="achieve-tag">02 / STORE LAYOUTS</span>
+                                                <p class="achieve-desc">Built responsive, user-friendly store layouts with HTML, CSS, and Liquid.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="achieve-item">
+                                            <div class="achieve-node"></div>
+                                            <div class="achieve-content">
+                                                <span class="achieve-tag">03 / UX & BEST PRACTICES</span>
+                                                <p class="achieve-desc">Tailored themes to meet client needs, enhancing UX. Collaborated on Shopify best practices to boost store performance.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="exp-skills-container">
+                                    <h4 class="exp-sub-title font-small">Technologies & Skills Deployed</h4>
+                                    <div class="exp-skills-grid">
+                                        <span class="exp-skill-tag">Shopify Admin</span>
+                                        <span class="exp-skill-tag">Liquid</span>
+                                        <span class="exp-skill-tag">HTML</span>
+                                        <span class="exp-skill-tag">CSS</span>
+                                        <span class="exp-skill-tag">JavaScript</span>
+                                        <span class="exp-skill-tag">App configuration</span>
+                                        <span class="exp-skill-tag">UX Design</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: ITHub Software Solutions -->
+                    <div class="experience-right-col">
+                        <div class="exp-console-card" id="experience-card-ithub">
+                            <!-- Background Watermark -->
+                            <div class="card-watermark-bg">
+                                <img src="images/It-hub.png" alt="ITHub Logo" />
+                            </div>
+                            <div class="exp-card-ribbon">
+                                <div class="ribbon-dots">
+                                    <span class="dot-red"></span>
+                                    <span class="dot-yellow"></span>
+                                    <span class="dot-green"></span>
+                                </div>
+                            </div>
+
+                            <div class="exp-card-body">
+                                <!-- Top Meta Ribbon -->
+                                <div class="exp-meta-ribbon">
+                                    <div class="meta-ribbon-item">
+                                        <span class="ribbon-lbl">EMPLOYER</span>
+                                        <span class="ribbon-val">ITHub Software Solutions</span>
+                                    </div>
+                                    <div class="meta-ribbon-item">
+                                        <span class="ribbon-lbl">DURATION</span>
+                                        <span class="ribbon-val">AUG-2023 - SEPT-2024</span>
+                                    </div>
+                                    <div class="meta-ribbon-item">
+                                        <span class="ribbon-lbl">LOCATION</span>
+                                        <span class="ribbon-val">Bhavnagar / India</span>
+                                    </div>
+                                </div>
+
+                                <div class="exp-role-header">
+                                    <div class="exp-role-info">
+                                        <span class="exp-badge">Full-Stack</span>
+                                        <h3 class="exp-role-title">PHP Web Development</h3>
+                                    </div>
+                                    <div class="exp-company-logo">
+                                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                                            width="55" height="55" fill="currentColor">
+                                            <ellipse cx="12" cy="12" rx="12" ry="6.2" fill="currentColor" />
+                                            <text x="12" y="14.8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="8.8" font-weight="900" font-style="italic" text-anchor="middle" fill="#0d0d0d" letter-spacing="-0.3">php</text>
+                                        </svg>
+                                    </div>
+                                </div>
+
+                                <p class="exp-overview">
+                                    Gained hands-on experience in full-stack web development through an immersive internship program.
+                                </p>
+
+                                <div class="exp-achievements-container">
+                                    <h4 class="exp-sub-title">Key Responsibilities & Achievements</h4>
+
+                                    <div class="exp-timeline-achievements">
+                                        <div class="achieve-timeline-line"></div>
+
+                                        <div class="achieve-item">
+                                            <div class="achieve-node"></div>
+                                            <div class="achieve-content">
+                                                <span class="achieve-tag">01 / IMMERSIVE INTERNSHIP</span>
+                                                <p class="achieve-desc">Gain hands-on experience in full-stack web development through an immersive internship.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="achieve-item">
+                                            <div class="achieve-node"></div>
+                                            <div class="achieve-content">
+                                                <span class="achieve-tag">02 / INTERNSHIP TECHNOLOGIES</span>
+                                                <p class="achieve-desc">Used core technologies including HTML, CSS, JavaScript, Bootstrap, MySQL, and PHP.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="exp-skills-container">
+                                    <h4 class="exp-sub-title font-small">Technologies & Skills Deployed</h4>
+                                    <div class="exp-skills-grid">
+                                        <span class="exp-skill-tag">HTML</span>
+                                        <span class="exp-skill-tag">CSS</span>
+                                        <span class="exp-skill-tag">JavaScript</span>
+                                        <span class="exp-skill-tag">Bootstrap</span>
+                                        <span class="exp-skill-tag">MySQL</span>
+                                        <span class="exp-skill-tag">PHP</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Skills Section (Triggers Dark Theme) -->
+        <section class="section-skills theme-section" data-theme="dark" id="skills">
+            <div class="skills-ambient-glow" id="skills-glow"></div>
+            <div class="container">
+                <!-- Section Header -->
+                <div class="skills-header">
+                    <h2 class="skills-headline">Skills & Expertise</h2>
+                    <p class="skills-section-desc">My primary technical stack, development frameworks, and database architectures engineered for ecommerce speed, security, and conversion.</p>
+                </div>
+
+                <div class="skills-timeline-container">
+
+                    <!-- Sticky Left Sidebar Navigator -->
+                    <div class="skills-timeline-sidebar">
+                        <ul class="skills-sidebar-list">
+                            <div class="skills-sidebar-progress-fill"></div>
+                            <li class="skills-sidebar-item active" data-skill-target="html5">
+                                <span class="skills-sidebar-dot">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                        alt="HTML5">
+                                </span>
+                                <span class="skills-sidebar-label">HTML5</span>
+                            </li>
+                            <li class="skills-sidebar-item" data-skill-target="css3">
+                                <span class="skills-sidebar-dot">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                                        alt="CSS3">
+                                </span>
+                                <span class="skills-sidebar-label">CSS3</span>
+                            </li>
+                            <li class="skills-sidebar-item" data-skill-target="javascript">
+                                <span class="skills-sidebar-dot">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                        alt="JavaScript">
+                                </span>
+                                <span class="skills-sidebar-label">JavaScript</span>
+                            </li>
+                            <li class="skills-sidebar-item" data-skill-target="shopify">
+                                <span class="skills-sidebar-dot">
+                                    <img src="https://cdn.simpleicons.org/shopify/7AB55C" alt="Shopify">
+                                </span>
+                                <span class="skills-sidebar-label">Shopify</span>
+                            </li>
+                            <li class="skills-sidebar-item" data-skill-target="liquid">
+                                <span class="skills-sidebar-dot">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                        stroke="#2E5F70" stroke-width="1.5">
+                                        <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M12 18.5a4.5 4.5 0 0 0 4.5-4.5c0-2.5-4.5-6.5-4.5-6.5S7.5 11.5 7.5 14a4.5 4.5 0 0 0 4.5 4.5z"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </span>
+                                <span class="skills-sidebar-label">Liquid</span>
+                            </li>
+                            <li class="skills-sidebar-item" data-skill-target="php">
+                                <span class="skills-sidebar-dot">
+                                    <img src="https://cdn.simpleicons.org/php/777BB4" alt="PHP">
+                                </span>
+                                <span class="skills-sidebar-label">PHP</span>
+                            </li>
+                            <li class="skills-sidebar-item" data-skill-target="mysql">
+                                <span class="skills-sidebar-dot">
+                                    <img src="https://cdn.simpleicons.org/mysql/00758F" alt="MySQL">
+                                </span>
+                                <span class="skills-sidebar-label">MySQL</span>
+                            </li>
+                            <li class="skills-sidebar-item" data-skill-target="wordpress">
+                                <span class="skills-sidebar-dot">
+                                    <img src="https://cdn.simpleicons.org/wordpress/21759B" alt="WordPress">
+                                </span>
+                                <span class="skills-sidebar-label">WordPress</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Timeline Contents List -->
+                    <div class="skills-timeline-list">
+
+                        <!-- Central Vertical Axis Progress Track -->
+                        <div class="skills-timeline-center-line">
+                            <div class="skills-timeline-progress-fill"></div>
+                        </div>
+
+                        <!-- Entry 1: HTML5 (Left) -->
+                        <div class="skills-timeline-entry entry-left active" id="skill-html5" data-skill-id="html5"
+                            data-brand-color="#E34F26">
+                            <div class="skills-timeline-node"></div>
+                            <div class="skill-card" data-brand-color="#E34F26" data-percent="95">
+                                <div class="skill-card-inner">
+                                    <div class="skill-header">
+                                        <div class="skill-icon">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                                alt="HTML5">
+                                        </div>
+                                        <div class="skill-progress-wrap">
+                                            <svg class="progress-ring" width="48" height="48">
+                                                <circle class="progress-ring-circle-bg" stroke="rgba(255,255,255,0.06)"
+                                                    stroke-width="2.5" fill="transparent" r="18" cx="24" cy="24" />
+                                                <circle class="progress-ring-circle" stroke="#E34F26" stroke-width="2.5"
+                                                    fill="transparent" r="18" cx="24" cy="24" stroke-dasharray="113.1"
+                                                    stroke-dashoffset="113.1" />
+                                            </svg>
+                                            <span class="skill-percentage">95%</span>
+                                        </div>
+                                    </div>
+                                    <div class="skill-body">
+                                        <h3 class="skill-title">HTML</h3>
+                                        <p class="skill-tagline">Structural Semantics</p>
+                                    </div>
+                                    <div class="skill-hover-panel">
+                                        <div class="skill-hover-header">HTML</div>
+                                        <ul class="skill-features">
+                                             <li>HTML Semantics</li>
+                                             <li>CSS</li>
+                                             <li>Responsive Layouts</li>
+                                         </ul>
+                                        <div class="skill-progress-line-container">
+                                            <div class="skill-progress-line-label">
+                                                <span class="skill-progress-line-title">Proficiency</span>
+                                                <span class="skill-progress-line-val">95%</span>
+                                            </div>
+                                            <div class="skill-progress-line-track">
+                                                <div class="skill-progress-line-fill" style="--percent: 95%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Entry 2: CSS3 (Right) -->
+                        <div class="skills-timeline-entry entry-right" id="skill-css3" data-skill-id="css3"
+                            data-brand-color="#1572B6">
+                            <div class="skills-timeline-node"></div>
+                            <div class="skill-card" data-brand-color="#1572B6" data-percent="90">
+                                <div class="skill-card-inner">
+                                    <div class="skill-header">
+                                        <div class="skill-icon">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                                                alt="CSS3">
+                                        </div>
+                                        <div class="skill-progress-wrap">
+                                            <svg class="progress-ring" width="48" height="48">
+                                                <circle class="progress-ring-circle-bg" stroke="rgba(255,255,255,0.06)"
+                                                    stroke-width="2.5" fill="transparent" r="18" cx="24" cy="24" />
+                                                <circle class="progress-ring-circle" stroke="#1572B6" stroke-width="2.5"
+                                                    fill="transparent" r="18" cx="24" cy="24" stroke-dasharray="113.1"
+                                                    stroke-dashoffset="113.1" />
+                                            </svg>
+                                            <span class="skill-percentage">90%</span>
+                                        </div>
+                                    </div>
+                                    <div class="skill-body">
+                                        <h3 class="skill-title">CSS</h3>
+                                        <p class="skill-tagline">Visual Architecture</p>
+                                    </div>
+                                    <div class="skill-hover-panel">
+                                        <div class="skill-hover-header">CSS</div>
+                                        <ul class="skill-features">
+                                             <li>CSS Grid & Flexbox</li>
+                                             <li>Animations</li>
+                                             <li>Modern CSS Styling</li>
+                                         </ul>
+                                        <div class="skill-progress-line-container">
+                                            <div class="skill-progress-line-label">
+                                                <span class="skill-progress-line-title">Proficiency</span>
+                                                <span class="skill-progress-line-val">90%</span>
+                                            </div>
+                                            <div class="skill-progress-line-track">
+                                                <div class="skill-progress-line-fill" style="--percent: 90%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Entry 3: JavaScript (Left) -->
+                        <div class="skills-timeline-entry entry-left" id="skill-javascript" data-skill-id="javascript"
+                            data-brand-color="#F7DF1E">
+                            <div class="skills-timeline-node"></div>
+                            <div class="skill-card" data-brand-color="#F7DF1E" data-percent="80">
+                                <div class="skill-card-inner">
+                                    <div class="skill-header">
+                                        <div class="skill-icon">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                                alt="JavaScript">
+                                        </div>
+                                        <div class="skill-progress-wrap">
+                                            <svg class="progress-ring" width="48" height="48">
+                                                <circle class="progress-ring-circle-bg" stroke="rgba(255,255,255,0.06)"
+                                                    stroke-width="2.5" fill="transparent" r="18" cx="24" cy="24" />
+                                                <circle class="progress-ring-circle" stroke="#F7DF1E" stroke-width="2.5"
+                                                    fill="transparent" r="18" cx="24" cy="24" stroke-dasharray="113.1"
+                                                    stroke-dashoffset="113.1" />
+                                            </svg>
+                                            <span class="skill-percentage">80%</span>
+                                        </div>
+                                    </div>
+                                    <div class="skill-body">
+                                        <h3 class="skill-title">JavaScript</h3>
+                                        <p class="skill-tagline">Dynamic Logic Execution</p>
+                                    </div>
+                                    <div class="skill-hover-panel">
+                                        <div class="skill-hover-header">JavaScript Core</div>
+                                        <ul class="skill-features">
+                                             <li>Programming</li>
+                                             <li>DOM Manipulation</li>
+                                             <li>AJAX & Fetch APIs</li>
+                                         </ul>
+                                        <div class="skill-progress-line-container">
+                                            <div class="skill-progress-line-label">
+                                                <span class="skill-progress-line-title">Proficiency</span>
+                                                <span class="skill-progress-line-val">80%</span>
+                                            </div>
+                                            <div class="skill-progress-line-track">
+                                                <div class="skill-progress-line-fill" style="--percent: 80%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Entry 4: Shopify (Right) -->
+                        <div class="skills-timeline-entry entry-right" id="skill-shopify" data-skill-id="shopify"
+                            data-brand-color="#7AB55C">
+                            <div class="skills-timeline-node"></div>
+                            <div class="skill-card" data-brand-color="#7AB55C" data-percent="95">
+                                <div class="skill-card-inner">
+                                    <div class="skill-header">
+                                        <div class="skill-icon">
+                                            <img src="https://cdn.simpleicons.org/shopify/7AB55C" alt="Shopify">
+                                        </div>
+                                        <div class="skill-progress-wrap">
+                                            <svg class="progress-ring" width="48" height="48">
+                                                <circle class="progress-ring-circle-bg" stroke="rgba(255,255,255,0.06)"
+                                                    stroke-width="2.5" fill="transparent" r="18" cx="24" cy="24" />
+                                                <circle class="progress-ring-circle" stroke="#7AB55C" stroke-width="2.5"
+                                                    fill="transparent" r="18" cx="24" cy="24" stroke-dasharray="113.1"
+                                                    stroke-dashoffset="113.1" />
+                                            </svg>
+                                            <span class="skill-percentage">95%</span>
+                                        </div>
+                                    </div>
+                                    <div class="skill-body">
+                                        <h3 class="skill-title">Shopify</h3>
+                                        <p class="skill-tagline">E-Commerce Infrastructure</p>
+                                    </div>
+                                    <div class="skill-hover-panel">
+                                        <div class="skill-hover-header">Shopify Architecture</div>
+                                        <ul class="skill-features">
+                                             <li>Shopify Theme 2.0</li>
+                                             <li>Store Customization</li>
+                                             <li>App cunfigration</li>
+                                         </ul>
+                                        <div class="skill-progress-line-container">
+                                            <div class="skill-progress-line-label">
+                                                <span class="skill-progress-line-title">Proficiency</span>
+                                                <span class="skill-progress-line-val">95%</span>
+                                            </div>
+                                            <div class="skill-progress-line-track">
+                                                <div class="skill-progress-line-fill" style="--percent: 95%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Entry 5: Liquid (Left) -->
+                        <div class="skills-timeline-entry entry-left" id="skill-liquid" data-skill-id="liquid"
+                            data-brand-color="#2E5F70">
+                            <div class="skills-timeline-node"></div>
+                            <div class="skill-card" data-brand-color="#2E5F70" data-percent="95">
+                                <div class="skill-card-inner">
+                                    <div class="skill-header">
+                                        <div class="skill-icon">
+                                            <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232E5F70' stroke-width='1.5'><path d='M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z' stroke-linecap='round' stroke-linejoin='round'/><path d='M12 18.5a4.5 4.5 0 0 0 4.5-4.5c0-2.5-4.5-6.5-4.5-6.5S7.5 11.5 7.5 14a4.5 4.5 0 0 0 4.5 4.5z' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+                                                alt="Liquid">
+                                        </div>
+                                        <div class="skill-progress-wrap">
+                                            <svg class="progress-ring" width="48" height="48">
+                                                <circle class="progress-ring-circle-bg" stroke="rgba(255,255,255,0.06)"
+                                                    stroke-width="2.5" fill="transparent" r="18" cx="24" cy="24" />
+                                                <circle class="progress-ring-circle" stroke="#2E5F70" stroke-width="2.5"
+                                                    fill="transparent" r="18" cx="24" cy="24" stroke-dasharray="113.1"
+                                                    stroke-dashoffset="113.1" />
+                                            </svg>
+                                            <span class="skill-percentage">95%</span>
+                                        </div>
+                                    </div>
+                                    <div class="skill-body">
+                                        <h3 class="skill-title">Liquid</h3>
+                                        <p class="skill-tagline">Shopify Templating</p>
+                                    </div>
+                                    <div class="skill-hover-panel">
+                                        <div class="skill-hover-header">Liquid Customization</div>
+                                        <ul class="skill-features">
+                                             <li>Liquid Templating</li>
+                                             <li>Dynamic Section Schemas</li>
+                                             <li>Custom Theme Logic</li>
+                                         </ul>
+                                        <div class="skill-progress-line-container">
+                                            <div class="skill-progress-line-label">
+                                                <span class="skill-progress-line-title">Proficiency</span>
+                                                <span class="skill-progress-line-val">95%</span>
+                                            </div>
+                                            <div class="skill-progress-line-track">
+                                                <div class="skill-progress-line-fill" style="--percent: 95%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Entry 6: PHP (Right) -->
+                        <div class="skills-timeline-entry entry-right" id="skill-php" data-skill-id="php"
+                            data-brand-color="#777BB4">
+                            <div class="skills-timeline-node"></div>
+                            <div class="skill-card" data-brand-color="#777BB4" data-percent="85">
+                                <div class="skill-card-inner">
+                                    <div class="skill-header">
+                                        <div class="skill-icon">
+                                            <img src="https://cdn.simpleicons.org/php/777BB4" alt="PHP">
+                                        </div>
+                                        <div class="skill-progress-wrap">
+                                            <svg class="progress-ring" width="48" height="48">
+                                                <circle class="progress-ring-circle-bg" stroke="rgba(255,255,255,0.06)"
+                                                    stroke-width="2.5" fill="transparent" r="18" cx="24" cy="24" />
+                                                <circle class="progress-ring-circle" stroke="#777BB4" stroke-width="2.5"
+                                                    fill="transparent" r="18" cx="24" cy="24" stroke-dasharray="113.1"
+                                                    stroke-dashoffset="113.1" />
+                                            </svg>
+                                            <span class="skill-percentage">85%</span>
+                                        </div>
+                                    </div>
+                                    <div class="skill-body">
+                                        <h3 class="skill-title">PHP</h3>
+                                        <p class="skill-tagline">Backend Logic</p>
+                                    </div>
+                                    <div class="skill-hover-panel">
+                                        <div class="skill-hover-header">PHP Scripting</div>
+                                        <ul class="skill-features">
+                                             <li>PHP Web Development</li>
+                                             <li>Backend Logic</li>
+                                             <li>API Integration</li>
+                                         </ul>
+                                        <div class="skill-progress-line-container">
+                                            <div class="skill-progress-line-label">
+                                                <span class="skill-progress-line-title">Proficiency</span>
+                                                <span class="skill-progress-line-val">85%</span>
+                                            </div>
+                                            <div class="skill-progress-line-track">
+                                                <div class="skill-progress-line-fill" style="--percent: 85%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Entry 7: MySQL (Left) -->
+                        <div class="skills-timeline-entry entry-left" id="skill-mysql" data-skill-id="mysql"
+                            data-brand-color="#00758F">
+                            <div class="skills-timeline-node"></div>
+                            <div class="skill-card" data-brand-color="#00758F" data-percent="80">
+                                <div class="skill-card-inner">
+                                    <div class="skill-header">
+                                        <div class="skill-icon">
+                                            <img src="https://cdn.simpleicons.org/mysql/00758F" alt="MySQL">
+                                        </div>
+                                        <div class="skill-progress-wrap">
+                                            <svg class="progress-ring" width="48" height="48">
+                                                <circle class="progress-ring-circle-bg" stroke="rgba(255,255,255,0.06)"
+                                                    stroke-width="2.5" fill="transparent" r="18" cx="24" cy="24" />
+                                                <circle class="progress-ring-circle" stroke="#00758F" stroke-width="2.5"
+                                                    fill="transparent" r="18" cx="24" cy="24" stroke-dasharray="113.1"
+                                                    stroke-dashoffset="113.1" />
+                                            </svg>
+                                            <span class="skill-percentage">80%</span>
+                                        </div>
+                                    </div>
+                                    <div class="skill-body">
+                                        <h3 class="skill-title">MySQL</h3>
+                                        <p class="skill-tagline">Relational Queries</p>
+                                    </div>
+                                    <div class="skill-hover-panel">
+                                        <div class="skill-hover-header">MySQL DB</div>
+                                        <ul class="skill-features">
+                                             <li>MySQL Databases</li>
+                                             <li>SQL Query Optimization</li>
+                                         </ul>
+                                        <div class="skill-progress-line-container">
+                                            <div class="skill-progress-line-label">
+                                                <span class="skill-progress-line-title">Proficiency</span>
+                                                <span class="skill-progress-line-val">80%</span>
+                                            </div>
+                                            <div class="skill-progress-line-track">
+                                                <div class="skill-progress-line-fill" style="--percent: 80%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Entry 8: WordPress (Right) -->
+                        <div class="skills-timeline-entry entry-right" id="skill-wordpress" data-skill-id="wordpress"
+                            data-brand-color="#21759B">
+                            <div class="skills-timeline-node"></div>
+                            <div class="skill-card" data-brand-color="#21759B" data-percent="55">
+                                <div class="skill-card-inner">
+                                    <div class="skill-header">
+                                        <div class="skill-icon">
+                                            <img src="https://cdn.simpleicons.org/wordpress/21759B" alt="WordPress">
+                                        </div>
+                                        <div class="skill-progress-wrap">
+                                            <svg class="progress-ring" width="48" height="48">
+                                                <circle class="progress-ring-circle-bg" stroke="rgba(255,255,255,0.06)"
+                                                    stroke-width="2.5" fill="transparent" r="18" cx="24" cy="24" />
+                                                <circle class="progress-ring-circle" stroke="#21759B" stroke-width="2.5"
+                                                    fill="transparent" r="18" cx="24" cy="24" stroke-dasharray="113.1"
+                                                    stroke-dashoffset="113.1" />
+                                            </svg>
+                                            <span class="skill-percentage">55%</span>
+                                        </div>
+                                    </div>
+                                    <div class="skill-body">
+                                        <h3 class="skill-title">WordPress</h3>
+                                        <p class="skill-tagline">CMS Customization</p>
+                                    </div>
+                                    <div class="skill-hover-panel">
+                                        <div class="skill-hover-header">WordPress Custom</div>
+                                        <ul class="skill-features">
+                                             <li>WordPress Development</li>
+                                             <li>Page customization using elementor</li>
+                                         </ul>
+                                        <div class="skill-progress-line-container">
+                                            <div class="skill-progress-line-label">
+                                                <span class="skill-progress-line-title">Proficiency</span>
+                                                <span class="skill-progress-line-val">55%</span>
+                                            </div>
+                                            <div class="skill-progress-line-track">
+                                                <div class="skill-progress-line-fill" style="--percent: 55%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Shopify Expertise Section -->
+        <section class="section-expertise theme-section" data-theme="light" id="expertise">
+            <div class="container">
+                <p class="expertise-section-label">Shopify Expertise</p>
+                <h2 class="expertise-headline">Bespoke Shopify Solutions</h2>
+                <div class="expertise-grid">
+                    <!-- Card 1: Shopify Theme Dev -->
+                    <div class="expertise-card">
+                        <div class="expertise-card-inner">
+                            <div class="card-header">
+                                <span class="card-srv-code">01</span>
+                                <div class="card-stamp">90+ LIGHTHOUSE</div>
+                            </div>
+                            <h3 class="card-title">SHOPIFY THEME DEV</h3>
+                            <ul class="card-features">
+                                <li>Custom Liquid Coding</li>
+                                <li>Shopify 2.0 Sections</li>
+                                <li>Schema Architecture</li>
+                            </ul>
+                            <a href="#contact" class="btn-enquire">ENQUIRE_NOW →</a>
+                            <div class="card-grip">
+                                <span></span><span></span><span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Store Customization -->
+                    <div class="expertise-card">
+                        <div class="expertise-card-inner">
+                            <div class="card-header">
+                                <span class="card-srv-code">02</span>
+                                <div class="card-stamp">HIGH CONV</div>
+                            </div>
+                            <h3 class="card-title">STORE CUSTOMIZATION</h3>
+                            <ul class="card-features">
+                                <li>Custom theme setup</li>
+                                <li>Metafield and metaobject Logic</li>
+                                <li>Market and shipping zon setup etc...</li>
+                            </ul>
+                            <a href="#contact" class="btn-enquire">ENQUIRE_NOW →</a>
+                            <div class="card-grip">
+                                <span></span><span></span><span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Speed Optimization -->
+                    <div class="expertise-card">
+                        <div class="expertise-card-inner">
+                            <div class="card-header">
+                                <span class="card-srv-code">03</span>
+                                <div class="card-stamp">&lt; 1.5S LOAD</div>
+                            </div>
+                            <h3 class="card-title">SPEED OPTIMIZATION</h3>
+                            <ul class="card-features">
+                                <li>Code Cleanup</li>
+                                <li>Image Optimization</li>
+                                <li>Script Management</li>
+                            </ul>
+                            <a href="#contact" class="btn-enquire">ENQUIRE_NOW →</a>
+                            <div class="card-grip">
+                                <span></span><span></span><span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4: App & API Connect -->
+                    <div class="expertise-card">
+                        <div class="expertise-card-inner">
+                            <div class="card-header">
+                                <span class="card-srv-code">04</span>
+                                <div class="card-stamp">ENTERPRISE</div>
+                            </div>
+                            <h3 class="card-title">APP & API CONNECT</h3>
+                            <ul class="card-features">
+                                <li>App Integrations</li>
+                                <li>API Integrations</li>
+                                <li>Checkout Extensibility</li>
+                                </ul>
+                            <a href="#contact" class="btn-enquire">ENQUIRE_NOW →</a>
+                            <div class="card-grip">
+                                <span></span><span></span><span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Intro (Triggers Light Theme) -->
+        <section class="section-services theme-section" data-theme="light" id="services">
+            <div class="container">
+                <h2 class="services-headline">Our Services</h2>
+                <div class="services-grid-new">
+                    <!-- Card 1: Custom Shopify Theme Design -->
+                    <div class="service-card-new">
+                        <div class="service-card-inner">
+                            <img src="images/shopify-theme-design.png" alt="Custom Shopify Theme Design">
+                            <div class="card-content-default">
+                                <h3>Custom Shopify Theme Design</h3>
+                                <!-- <span class="service-count">/6 services</span> -->
+                            </div>
+                            <div class="card-overlay-hover">
+                                <div class="tags-container">
+                                    <span class="service-tag">Custom Design</span>
+                                    <span class="service-tag">Brand Integration</span>
+                                    <span class="service-tag">Mobile-First Approach</span>
+                                    <span class="service-tag">Conversion Optimized</span>
+                                </div>
+                                <span class="see-more-link">Get Quote</span>
+                            </div>
+                            <div class="card-bottom-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                    <line x1="3" y1="9" x2="21" y2="9"/>
+                                    <line x1="9" y1="21" x2="9" y2="9"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Theme Customization -->
+                    <div class="service-card-new">
+                        <div class="service-card-inner">
+                            <img src="images/theme-customization.png" alt="Theme Customization">
+                            <div class="card-content-default">
+                                <h3>Theme Customization</h3>
+                                <!-- <span class="service-count">/5 services</span> -->
+                            </div>
+                            <div class="card-overlay-hover">
+                                <div class="tags-container">
+                                    <span class="service-tag">Code Modifications</span>
+                                    <span class="service-tag">Layout Changes</span>
+                                    <span class="service-tag">Feature Additions</span>
+                                    <span class="service-tag">Performance Optimization</span>
+                                </div>
+                                <span class="see-more-link">Get Quote</span>
+                            </div>
+                            <div class="card-bottom-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="4" y1="21" x2="4" y2="14"/>
+                                    <line x1="4" y1="10" x2="4" y2="3"/>
+                                    <line x1="12" y1="21" x2="12" y2="12"/>
+                                    <line x1="12" y1="8" x2="12" y2="3"/>
+                                    <line x1="20" y1="21" x2="20" y2="16"/>
+                                    <line x1="20" y1="12" x2="20" y2="3"/>
+                                    <line x1="1" y1="14" x2="7" y2="14"/>
+                                    <line x1="9" y1="8" x2="15" y2="8"/>
+                                    <line x1="17" y1="16" x2="23" y2="16"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Responsive Development -->
+                    <div class="service-card-new">
+                        <div class="service-card-inner">
+                            <img src="images/responsive-dev.png" alt="Responsive Development">
+                            <div class="card-content-default">
+                                <h3>Responsive Development</h3>
+                                <!-- <span class="service-count">/6 services</span> -->
+                            </div>
+                            <div class="card-overlay-hover">
+                                <div class="tags-container">
+                                    <span class="service-tag">Mobile Optimization</span>
+                                    <span class="service-tag">Cross-Browser Testing</span>
+                                    <span class="service-tag">Touch-Friendly Interface</span>
+                                    <span class="service-tag">Fast Loading</span>
+                                </div>
+                                <span class="see-more-link">Get Quote</span>
+                            </div>
+                            <div class="card-bottom-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="3" width="12" height="13" rx="2" ry="2"/>
+                                    <rect x="9" y="8" width="13" height="13" rx="2" ry="2"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4: Liquid Template Customization -->
+                    <div class="service-card-new">
+                        <div class="service-card-inner">
+                            <img src="images/liquid-customization.png" alt="Liquid Template Customization">
+                            <div class="card-content-default">
+                                <h3>Liquid Template Customization</h3>
+                                <!-- <span class="service-count">/3 services</span> -->
+                            </div>
+                            <div class="card-overlay-hover">
+                                <div class="tags-container">
+                                    <span class="service-tag">Custom Liquid Code</span>
+                                    <span class="service-tag">Dynamic Templates</span>
+                                    <span class="service-tag">Complex Logic</span>
+                                    <span class="service-tag">Advanced Filtering</span>
+                                </div>
+                                <span class="see-more-link">Get Quote</span>
+                            </div>
+                            <div class="card-bottom-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="16 18 22 12 16 6"/>
+                                    <polyline points="8 6 2 12 8 18"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5: Store Setup & Configuration -->
+                    <div class="service-card-new">
+                        <div class="service-card-inner">
+                            <img src="images/store-setup.png" alt="Store Setup & Configuration">
+                            <div class="card-content-default">
+                                <h3>Store Setup & Configuration</h3>
+                                <!-- <span class="service-count">/7 services</span> -->
+                            </div>
+                            <div class="card-overlay-hover">
+                                <div class="tags-container">
+                                    <span class="service-tag">Store Configuration</span>
+                                    <span class="service-tag">Product Setup</span>
+                                    <span class="service-tag">Collection Management</span>
+                                    <span class="service-tag">Payment Gateway</span>
+                                </div>
+                                <span class="see-more-link">Get Quote</span>
+                            </div>
+                            <div class="card-bottom-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                                    <polyline points="9 22 9 12 15 12 15 22"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 6: Performance Optimization -->
+                    <div class="service-card-new">
+                        <div class="service-card-inner">
+                            <img src="images/performance-opt.png" alt="Performance Optimization">
+                            <div class="card-content-default">
+                                <h3>Performance Optimization</h3>
+                                <!-- <span class="service-count">/7 services</span> -->
+                            </div>
+                            <div class="card-overlay-hover">
+                                <div class="tags-container">
+                                    <span class="service-tag">Speed Enhancement</span>
+                                    <span class="service-tag">Core Web Vitals</span>
+                                    <span class="service-tag">Image Optimization</span>
+                                    <span class="service-tag">Code Minification</span>
+                                </div>
+                                <span class="see-more-link">Get Quote</span>
+                            </div>
+                            <div class="card-bottom-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 7: App Integration -->
+                    <div class="service-card-new">
+                        <div class="service-card-inner">
+                            <img src="images/app-integration.png" alt="App Integration">
+                            <div class="card-content-default">
+                                <h3>App Integration</h3>
+                                <!-- <span class="service-count">/6 services</span> -->
+                            </div>
+                            <div class="card-overlay-hover">
+                                <div class="tags-container">
+                                    <span class="service-tag">Third-party Apps</span>
+                                    <span class="service-tag">Custom Widgets</span>
+                                    <span class="service-tag">API Integration</span>
+                                    <span class="service-tag">Functionality Extension</span>
+                                </div>
+                                <span class="see-more-link">Get Quote</span>
+                            </div>
+                            <div class="card-bottom-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/>
+                                    <path d="M12 6v12M6 12h12"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 8: Bug Fixes & Maintenance -->
+                    <div class="service-card-new">
+                        <div class="service-card-inner">
+                            <img src="images/bug-fixes.png" alt="Bug Fixes & Maintenance">
+                            <div class="card-content-default">
+                                <h3>Bug Fixes & Maintenance</h3>
+                                <!-- <span class="service-count">/5 services</span> -->
+                            </div>
+                            <div class="card-overlay-hover">
+                                <div class="tags-container">
+                                    <span class="service-tag">Issue Resolution</span>
+                                    <span class="service-tag">Code Debugging</span>
+                                    <span class="service-tag">Regular Updates</span>
+                                    <span class="service-tag">Ongoing Support</span>
+                                </div>
+                                <span class="see-more-link">Get Quote</span>
+                            </div>
+                            <div class="card-bottom-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 9: B2B Store Setup -->
+                    <div class="service-card-new">
+                        <div class="service-card-inner">
+                            <img src="images/b2b-store.png" alt="B2B Store Setup (New)">
+                            <div class="card-content-default">
+                                <h3>B2B Store Setup (New)</h3>
+                                <!-- <span class="service-count">/5 services</span> -->
+                            </div>
+                            <div class="card-overlay-hover">
+                                <div class="tags-container">
+                                    <span class="service-tag">B2B Customer Groups</span>
+                                    <span class="service-tag">Wholesale Pricing</span>
+                                    <span class="service-tag">Bulk Ordering</span>
+                                    <span class="service-tag">Advanced User Roles</span>
+                                </div>
+                                <span class="see-more-link">Get Quote</span>
+                            </div>
+                            <div class="card-bottom-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 10: WooCommerce to Shopify Migration -->
+                    <div class="service-card-new">
+                        <div class="service-card-inner">
+                            <img src="images/woocommerce-migration.png" alt="WooCommerce to Shopify Migration">
+                            <div class="card-content-default">
+                                <h3>WooCommerce to Shopify Migration</h3>
+                                <!-- <span class="service-count">/5 services</span> -->
+                            </div>
+                            <div class="card-overlay-hover">
+                                <div class="tags-container">
+                                    <span class="service-tag">Product Migration</span>
+                                    <span class="service-tag">Customer Data Transfer</span>
+                                    <span class="service-tag">Order History Import</span>
+                                    <span class="service-tag">SEO Preservation</span>
+                                </div>
+                                <span class="see-more-link">Get Quote</span>
+                            </div>
+                            <div class="card-bottom-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M17 1l4 4-4 4"/>
+                                    <path d="M3 11V9a4 4 0 0 1 4-4h14"/>
+                                    <path d="M7 23l-4-4 4-4"/>
+                                    <path d="M21 13v2a4 4 0 0 1-4 4H3"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 11: Shopify Theme Customization -->
+                    <div class="service-card-new">
+                        <div class="service-card-inner">
+                            <img src="images/theme-custom-layout.png" alt="Shopify Theme Customization">
+                            <div class="card-content-default">
+                                <h3>Shopify Theme Customization</h3>
+                                <!-- <span class="service-count">/5 services</span> -->
+                            </div>
+                            <div class="card-overlay-hover">
+                                <div class="tags-container">
+                                    <span class="service-tag">Custom Layouts</span>
+                                    <span class="service-tag">Unique Features</span>
+                                    <span class="service-tag">Brand Integration</span>
+                                    <span class="service-tag">Responsive Design</span>
+                                </div>
+                                <span class="see-more-link">Get Quote</span>
+                            </div>
+                            <div class="card-bottom-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 14.7255 3.09032 17.1962 4.85857 19C5.32626 19.4677 5.32626 20.2323 4.85857 20.7C4.39088 21.1677 3.62626 21.1677 3.15857 20.7C1.20968 18.7511 0 16.027 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C10.9 24 10 23.1 10 22C10 20.9 10.9 20 12 20H12Z"/>
+                                    <circle cx="7.5" cy="10.5" r="1.5" fill="currentColor"/>
+                                    <circle cx="11.5" cy="7.5" r="1.5" fill="currentColor"/>
+                                    <circle cx="16.5" cy="9.5" r="1.5" fill="currentColor"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 12: PrestaShop to Shopify Migration -->
+                    <div class="service-card-new">
+                        <div class="service-card-inner">
+                            <img src="images/prestashop-migration.png" alt="PrestaShop to Shopify Migration">
+                            <div class="card-content-default">
+                                <h3>PrestaShop to Shopify Migration</h3>
+                                <!-- <span class="service-count">/5 services</span> -->
+                            </div>
+                            <div class="card-overlay-hover">
+                                <div class="tags-container">
+                                    <span class="service-tag">Complete Data Transfer</span>
+                                    <span class="service-tag">SEO Migration</span>
+                                    <span class="service-tag">Payment Gateway Setup</span>
+                                    <span class="service-tag">Post-Migration Support</span>
+                                </div>
+                                <span class="see-more-link">Get Quote</span>
+                            </div>
+                            <div class="card-bottom-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                                    <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+                                    <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Start a Project center floating button -->
+                <div class="services-floating-button">
+                    <a href="#contact" class="btn-services-project">Start a project <svg width="14" height="14"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Approach & Values Section (Triggers Light Theme) -->
+        <section class="section-approach theme-section" data-theme="light" id="approach">
+            <div class="container">
+                <div class="approach-grid">
+                    <div class="approach-left">
+                        <p class="approach-section-label">OUR APPROACH AND VALUES</p>
+                    </div>
+                    <div class="approach-right">
+                        <h2 class="approach-headline">
+                            <span class="highlight-word" data-step="3">We combine</span>
+                            <span class="highlight-word active" data-step="1">creativity</span>,
+                            <span class="highlight-word" data-step="2">strategic ideas</span>
+                            and <span class="highlight-word" data-step="4">technology</span>
+                            <span class="highlight-word" data-step="5">to create bespoke solutions</span>
+                            <span class="highlight-word" data-step="6">that drive your success.</span>
+                        </h2>
+                    </div>
+                </div>
+
+                <!-- Premium Minimalist Icons Grid -->
+                <div class="approach-icons-row">
+                    <!-- Icon 1: Heart (Creativity) -->
+                    <div class="approach-icon-wrap active" data-step="1">
+                        <span class="approach-badge">love what we do</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+                        </svg>
+                    </div>
+
+                    <!-- Icon 2: Strategy Compass (Strategy) -->
+                    <div class="approach-icon-wrap" data-step="2">
+                        <span class="approach-badge">strategic thinking</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10" />
+                            <circle cx="12" cy="12" r="6" />
+                            <circle cx="12" cy="12" r="2" />
+                            <line x1="12" y1="2" x2="12" y2="22" />
+                            <line x1="2" y1="12" x2="22" y2="12" />
+                        </svg>
+                    </div>
+
+                    <!-- Icon 3: Coffee (Passion/Combine) -->
+                    <div class="approach-icon-wrap" data-step="3">
+                        <span class="approach-badge">combine with passion</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 8h1a4 4 0 1 1 0 8h-1" />
+                            <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z" />
+                            <line x1="6" y1="2" x2="6" y2="4" />
+                            <line x1="10" y1="2" x2="10" y2="4" />
+                            <line x1="14" y1="2" x2="14" y2="4" />
+                        </svg>
+                    </div>
+
+                    <!-- Icon 4: Sparkle/Technology (Technology) -->
+                    <div class="approach-icon-wrap" data-step="4">
+                        <span class="approach-badge">creative technology</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275Z" />
+                            <circle cx="12" cy="12" r="3" />
+                        </svg>
+                    </div>
+
+                    <!-- Icon 5: House/Studio (Bespoke Solutions) -->
+                    <div class="approach-icon-wrap" data-step="5">
+                        <span class="approach-badge">tailored solutions</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                            <polyline points="9 22 9 12 15 12 15 22" />
+                        </svg>
+                    </div>
+
+                    <!-- Icon 6: Briefcase (Drive Success) -->
+                    <div class="approach-icon-wrap" data-step="6">
+                        <span class="approach-badge">delivering results</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+                            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest Work Section (Featured Project) -->
+        <section class="section-latest-work theme-section" data-theme="dark" id="portfolio">
+            <div class="container">
+                <p class="latest-work-section-label">LATEST WORK</p>
+
+                <div class="latest-work-list">
+                    <!-- Project 1: Elegant Look -->
+                    <a href="https://elegentlook.in/" target="_blank" rel="noopener noreferrer" class="latest-work-grid">
+                        <!-- Left: Interactive Image Block -->
+                        <div class="latest-work-image-frame">
+                            <img src="images/elegentlook-project-1.png" alt="Elegant Look Store Front"
+                                class="latest-work-img">
+                        </div>
+
+                        <!-- Right: Project Briefing & Metadata -->
+                        <div class="latest-work-details">
+                            <h2 class="latest-work-title">Elegant Look</h2>
+                            <p class="latest-work-description">
+                                Designed and customized a Shopify store using the Dawn theme. Built custom theme sections, configured settings, curated product collections, and generated custom logos and site graphics using advanced AI tools.
+                            </p>
+
+                            <div class="latest-work-meta">
+                                <div class="meta-block">
+                                    <span class="meta-title">Location</span>
+                                    <span class="meta-data">India</span>
+                                </div>
+                                <div class="meta-block">
+                                    <span class="meta-title">Industry</span>
+                                    <span class="meta-data">Fashion & Retail</span>
+                                </div>
+                            </div>
+                            <div class="mobile-project-btn">
+                                <span>SEE THE PROJECT</span>
+                                <svg class="see-project-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Project 2: Dhanwantri Pharmaceutical -->
+                    <a href="https://dhanwantripharmaceutical.com/" target="_blank" rel="noopener noreferrer" class="latest-work-grid">
+                        <!-- Left: Interactive Image Block -->
+                        <div class="latest-work-image-frame">
+                            <img src="images/dhanwantripharmaceutical-project-2.png" alt="Dhanwantri Pharmaceutical"
+                                class="latest-work-img">
+                        </div>
+
+                        <!-- Right: Project Briefing & Metadata -->
+                        <div class="latest-work-details">
+                            <h2 class="latest-work-title">Dhanwantri Pharmaceutical</h2>
+                            <p class="latest-work-description">
+                                Developed customized theme sections and designed a cohesive layout. Set up products, collections, and structured complex metadata fields and metaobjects using JSON to import dynamic FAQ data.
+                            </p>
+
+                            <div class="latest-work-meta">
+                                <div class="meta-block">
+                                    <span class="meta-title">Location</span>
+                                    <span class="meta-data">India</span>
+                                </div>
+                                <div class="meta-block">
+                                    <span class="meta-title">Industry</span>
+                                    <span class="meta-data">Pharmaceuticals</span>
+                                </div>
+                            </div>
+                            <div class="mobile-project-btn">
+                                <span>SEE THE PROJECT</span>
+                                <svg class="see-project-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Project 3: Runr Kids -->
+                    <a href="https://runrkids.in/" target="_blank" rel="noopener noreferrer" class="latest-work-grid">
+                        <!-- Left: Interactive Image Block -->
+                        <div class="latest-work-image-frame">
+                            <img src="images/runrkids-project-3.png" alt="Runr Kids"
+                                class="latest-work-img">
+                        </div>
+
+                        <!-- Right: Project Briefing & Metadata -->
+                        <div class="latest-work-details">
+                            <h2 class="latest-work-title">Runr Kids</h2>
+                            <p class="latest-work-description">
+                                Created a custom Shopify theme with unique sections and optimized layout settings. Migrated all products and database records from WordPress to Shopify, structured metaobjects/metafields, and set up automated tag-based smart collections.
+                            </p>
+
+                            <div class="latest-work-meta">
+                                <div class="meta-block">
+                                    <span class="meta-title">Location</span>
+                                    <span class="meta-data">India</span>
+                                </div>
+                                <div class="meta-block">
+                                    <span class="meta-title">Industry</span>
+                                    <span class="meta-data">Kids Wear</span>
+                                </div>
+                            </div>
+                            <div class="mobile-project-btn">
+                                <span>SEE THE PROJECT</span>
+                                <svg class="see-project-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Project 4: Khatri Pendawala -->
+                    <a href="https://khatripendawala.co.in/" target="_blank" rel="noopener noreferrer" class="latest-work-grid">
+                        <!-- Left: Interactive Image Block -->
+                        <div class="latest-work-image-frame">
+                            <img src="images/khatripendawala-project-4.png" alt="Khatri Pendawala"
+                                class="latest-work-img">
+                        </div>
+
+                        <!-- Right: Project Briefing & Metadata -->
+                        <div class="latest-work-details">
+                            <h2 class="latest-work-title">Khatri Pendawala</h2>
+                            <p class="latest-work-description">
+                                Leveraged Shopify's Dawn theme to construct custom sections and layouts. Configured the store settings, populated the product catalog, and implemented smart, tag-based automated collections.
+                            </p>
+
+                            <div class="latest-work-meta">
+                                <div class="meta-block">
+                                    <span class="meta-title">Location</span>
+                                    <span class="meta-data">India</span>
+                                </div>
+                                <div class="meta-block">
+                                    <span class="meta-title">Industry</span>
+                                    <span class="meta-data">Food & Sweets</span>
+                                </div>
+                            </div>
+                            <div class="mobile-project-btn">
+                                <span>SEE THE PROJECT</span>
+                                <svg class="see-project-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Project 5: One-11 Wine -->
+                    <a href="https://one11wine.com/" target="_blank" rel="noopener noreferrer" class="latest-work-grid">
+                        <!-- Left: Interactive Image Block -->
+                        <div class="latest-work-image-frame">
+                            <img src="images/one-11-wine-project-5.png" alt="One-11 Wine"
+                                class="latest-work-img">
+                        </div>
+
+                        <!-- Right: Project Briefing & Metadata -->
+                        <div class="latest-work-details">
+                            <h2 class="latest-work-title">One-11 Wine</h2>
+                            <p class="latest-work-description">
+                                Built a premium store on the Shopify Sello theme with custom templates and optimized settings. Migrated product catalogs from WordPress, set up metafields/metaobjects, created tag-based collections, and integrated multiple third-party apps like Smile.io rewards and product reviews.
+                            </p>
+
+                            <div class="latest-work-meta">
+                                <div class="meta-block">
+                                    <span class="meta-title">Location</span>
+                                    <span class="meta-data">United States</span>
+                                </div>
+                                <div class="meta-block">
+                                    <span class="meta-title">Industry</span>
+                                    <span class="meta-data">Wine & Spirits</span>
+                                </div>
+                            </div>
+                            <div class="mobile-project-btn">
+                                <span>SEE THE PROJECT</span>
+                                <svg class="see-project-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Project 6: 2GO-Shop -->
+                    <a href="https://2go-shop.de/" target="_blank" rel="noopener noreferrer" class="latest-work-grid">
+                        <!-- Left: Interactive Image Block -->
+                        <div class="latest-work-image-frame">
+                            <img src="images/2go-shop-de-project-6.png" alt="2GO-Shop"
+                                class="latest-work-img">
+                        </div>
+
+                        <!-- Right: Project Briefing & Metadata -->
+                        <div class="latest-work-details">
+                            <h2 class="latest-work-title">2GO-Shop</h2>
+                            <p class="latest-work-description">
+                                Customized a Shopify store utilizing the Concept theme. Successfully migrated all product data from Magento to Shopify, set up advanced metafields/metaobjects, and configured tag-based smart collections.
+                            </p>
+
+                            <div class="latest-work-meta">
+                                <div class="meta-block">
+                                    <span class="meta-title">Location</span>
+                                    <span class="meta-data">Germany</span>
+                                </div>
+                                <div class="meta-block">
+                                    <span class="meta-title">Industry</span>
+                                    <span class="meta-data">E-Commerce</span>
+                                </div>
+                            </div>
+                            <div class="mobile-project-btn">
+                                <span>SEE THE PROJECT</span>
+                                <svg class="see-project-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Project 7: Mywoffy -->
+                    <a href="https://mywoffy.myshopify.com/" target="_blank" rel="noopener noreferrer" class="latest-work-grid">
+                        <!-- Left: Interactive Image Block -->
+                        <div class="latest-work-image-frame">
+                            <img src="images/mywoffy-project-7.png" alt="Mywoffy"
+                                class="latest-work-img">
+                        </div>
+
+                        <!-- Right: Project Briefing & Metadata -->
+                        <div class="latest-work-details">
+                            <h2 class="latest-work-title">Mywoffy</h2>
+                            <p class="latest-work-description">
+                                Customized the Shopify Horizon theme, created the product catalog with SEO-optimized copy, imported custom metafields and metaobjects, and set up automated smart collections.
+                            </p>
+
+                            <div class="latest-work-meta">
+                                <div class="meta-block">
+                                    <span class="meta-title">Location</span>
+                                    <span class="meta-data">Canada</span>
+                                </div>
+                                <div class="meta-block">
+                                    <span class="meta-title">Industry</span>
+                                    <span class="meta-data">Pet Care</span>
+                                </div>
+                            </div>
+                            <div class="mobile-project-btn">
+                                <span>SEE THE PROJECT</span>
+                                <svg class="see-project-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Project 8: Prontop -->
+                    <a href="#portfolio" class="latest-work-grid">
+                        <!-- Left: Interactive Image Block -->
+                        <div class="latest-work-image-frame">
+                            <img src="images/prontop-project-8.png" alt="Prontop"
+                                class="latest-work-img">
+                        </div>
+
+                        <!-- Right: Project Briefing & Metadata -->
+                        <div class="latest-work-details">
+                            <h2 class="latest-work-title">Prontop</h2>
+                            <p class="latest-work-description">
+                                Developed a custom storefront using the Dawn theme. Built an advanced header megamenu and a mobile drawer menu, migrated product catalogs from Magento to Shopify, set up custom metafield/metaobject schemas, and configured tag-based collections.
+                            </p>
+
+                            <div class="latest-work-meta">
+                                <div class="meta-block">
+                                    <span class="meta-title">Location</span>
+                                    <span class="meta-data">Germany</span>
+                                </div>
+                                <div class="meta-block">
+                                    <span class="meta-title">Industry</span>
+                                    <span class="meta-data">Pet Care</span>
+                                </div>
+                            </div>
+                            <div class="mobile-project-btn">
+                                <span>SEE THE PROJECT</span>
+                                <svg class="see-project-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Project 9: Infrared Heating UK -->
+                    <a href="https://infraredheatinguk.co.uk/" target="_blank" rel="noopener noreferrer" class="latest-work-grid">
+                        <!-- Left: Interactive Image Block -->
+                        <div class="latest-work-image-frame">
+                            <img src="images/infraredheatinguk-project-9.png" alt="Infrared Heating UK"
+                                class="latest-work-img">
+                        </div>
+
+                        <!-- Right: Project Briefing & Metadata -->
+                        <div class="latest-work-details">
+                            <h2 class="latest-work-title">Infrared Heating UK</h2>
+                            <p class="latest-work-description">
+                                Designed custom theme sections and optimized layout styles. Created custom product data schemas and built custom product templates to showcase detailed technical specifications dynamically.
+                            </p>
+
+                            <div class="latest-work-meta">
+                                <div class="meta-block">
+                                    <span class="meta-title">Location</span>
+                                    <span class="meta-data">United Kingdom</span>
+                                </div>
+                                <div class="meta-block">
+                                    <span class="meta-title">Industry</span>
+                                    <span class="meta-data">Home & Heating</span>
+                                </div>
+                            </div>
+                            <div class="mobile-project-btn">
+                                <span>SEE THE PROJECT</span>
+                                <svg class="see-project-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Project 10: Kuttikat -->
+                    <a href="https://kuttikat.com/" target="_blank" rel="noopener noreferrer" class="latest-work-grid">
+                        <!-- Left: Interactive Image Block -->
+                        <div class="latest-work-image-frame">
+                            <img src="images/kuttikat-project-10.png" alt="Kuttikat"
+                                class="latest-work-img">
+                        </div>
+
+                        <!-- Right: Project Briefing & Metadata -->
+                        <div class="latest-work-details">
+                            <h2 class="latest-work-title">Kuttikat</h2>
+                            <p class="latest-work-description">
+                                Customized theme sections, applied optimized configuration settings, and set up a clean, responsive layout design matching the brand's aesthetic.
+                            </p>
+
+                            <div class="latest-work-meta">
+                                <div class="meta-block">
+                                    <span class="meta-title">Location</span>
+                                    <span class="meta-data">India</span>
+                                </div>
+                                <div class="meta-block">
+                                    <span class="meta-title">Industry</span>
+                                    <span class="meta-data">Digital Devices</span>
+                                </div>
+                            </div>
+                            <div class="mobile-project-btn">
+                                <span>SEE THE PROJECT</span>
+                                <svg class="see-project-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Project 11: Bügelbrettbezüge Eisele -->
+                    <a href="https://buegelbrettbezuege-eisele.de/" target="_blank" rel="noopener noreferrer" class="latest-work-grid">
+                        <!-- Left: Interactive Image Block -->
+                        <div class="latest-work-image-frame">
+                            <img src="images/buegelbrettbezuege-project-11.png" alt="Bügelbrettbezüge Eisele"
+                                class="latest-work-img">
+                        </div>
+
+                        <!-- Right: Project Briefing & Metadata -->
+                        <div class="latest-work-details">
+                            <h2 class="latest-work-title">Bügelbrettbezüge Eisele</h2>
+                            <p class="latest-work-description">
+                                Configured and customized the Shopify Dawn theme. Implemented responsive headers, megamenus, and mobile navigation drawers. Migrated all product data from Magento to Shopify, imported metafield/metaobject schemas, and set up tag-based smart collections.
+                            </p>
+
+                            <div class="latest-work-meta">
+                                <div class="meta-block">
+                                    <span class="meta-title">Location</span>
+                                    <span class="meta-data">Germany</span>
+                                </div>
+                                <div class="meta-block">
+                                    <span class="meta-title">Industry</span>
+                                    <span class="meta-data">Household Products</span>
+                                </div>
+                            </div>
+                            <div class="mobile-project-btn">
+                                <span>SEE THE PROJECT</span>
+                                <svg class="see-project-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Project 12: Winecitys -->
+                    <a href="https://winecitys.myshopify.com/" target="_blank" rel="noopener noreferrer" class="latest-work-grid">
+                        <!-- Left: Interactive Image Block -->
+                        <div class="latest-work-image-frame">
+                            <img src="images/winecitys-project-12.png" alt="Winecitys"
+                                class="latest-work-img">
+                        </div>
+
+                        <!-- Right: Project Briefing & Metadata -->
+                        <div class="latest-work-details">
+                            <h2 class="latest-work-title">Winecitys</h2>
+                            <p class="latest-work-description">
+                                Developed a custom store using the Sello theme. Migrated the product database from WordPress to Shopify, configured metaobjects and metafields, set up automated smart collections, and integrated multiple loyalty and review applications like Smile.io.
+                            </p>
+
+                            <div class="latest-work-meta">
+                                <div class="meta-block">
+                                    <span class="meta-title">Location</span>
+                                    <span class="meta-data">United States</span>
+                                </div>
+                                <div class="meta-block">
+                                    <span class="meta-title">Industry</span>
+                                    <span class="meta-data">Wine & Spirits</span>
+                                </div>
+                            </div>
+                            <div class="mobile-project-btn">
+                                <span>SEE THE PROJECT</span>
+                                <svg class="see-project-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Project 13: Melville Wine -->
+                    <a href="https://melville-wine.myshopify.com/" target="_blank" rel="noopener noreferrer" class="latest-work-grid">
+                        <!-- Left: Interactive Image Block -->
+                        <div class="latest-work-image-frame">
+                            <img src="images/melville-wine-project-13.png" alt="Melville Wine"
+                                class="latest-work-img">
+                        </div>
+
+                        <!-- Right: Project Briefing & Metadata -->
+                        <div class="latest-work-details">
+                            <h2 class="latest-work-title">Melville Wine</h2>
+                            <p class="latest-work-description">
+                                Crafted an elegant winery storefront utilizing the Sello theme. Migrated complex product lists from WordPress to Shopify, organized data using metafields and metaobjects, built tag-based smart collections, and integrated reviews and Smile.io rewards.
+                            </p>
+
+                            <div class="latest-work-meta">
+                                <div class="meta-block">
+                                    <span class="meta-title">Location</span>
+                                    <span class="meta-data">United States</span>
+                                </div>
+                                <div class="meta-block">
+                                    <span class="meta-title">Industry</span>
+                                    <span class="meta-data">Winery & E-Commerce</span>
+                                </div>
+                            </div>
+                            <div class="mobile-project-btn">
+                                <span>SEE THE PROJECT</span>
+                                <svg class="see-project-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Project 14: Super-6 -->
+                    <a href="https://super-6-1579.myshopify.com/" target="_blank" rel="noopener noreferrer" class="latest-work-grid">
+                        <!-- Left: Interactive Image Block -->
+                        <div class="latest-work-image-frame">
+                            <img src="images/super-6-project-14.png" alt="Super-6"
+                                class="latest-work-img">
+                        </div>
+
+                        <!-- Right: Project Briefing & Metadata -->
+                        <div class="latest-work-details">
+                            <h2 class="latest-work-title">Super-6</h2>
+                            <p class="latest-work-description">
+                                Created a dynamic e-commerce experience on the Sello theme. Migrated all products from WordPress, mapped custom metadata structures, set up tag-based smart collections, and integrated reward and review systems (like Smile.io).
+                            </p>
+
+                            <div class="latest-work-meta">
+                                <div class="meta-block">
+                                    <span class="meta-title">Location</span>
+                                    <span class="meta-data">Canada</span>
+                                </div>
+                                <div class="meta-block">
+                                    <span class="meta-title">Industry</span>
+                                    <span class="meta-data">Gaming & Apparel</span>
+                                </div>
+                            </div>
+                            <div class="mobile-project-btn">
+                                <span>SEE THE PROJECT</span>
+                                <svg class="see-project-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Centered View Full Portfolio Button -->
+                <!-- <div class="latest-work-action">
+                    <a href="#portfolio" class="btn-portfolio-view">View full portfolio</a>
+                </div> -->
+
+                <!-- Floating Custom Cursor Pill aligned to the entire section container -->
+                <a href="#portfolio" class="see-project-pill">
+                    <span>SEE THE PROJECT</span>
+                    <svg class="see-project-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="7" y1="17" x2="17" y2="7"></line>
+                        <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+        <!-- Testimonials (Triggers Dark Theme) -->
+        <section class="section-testimonials theme-section" data-theme="dark" id="insights">
+            <div class="testimonials-ambient-glow"></div>
+
+            <div class="container">
+                <div class="testimonials-header">
+                    <p class="testimonials-label">Client Stories</p>
+                    <h2>What they say</h2>
+                </div>
+              <div class="testimonials-marquee-wrapper">
+                <!-- Row 1: Scrolling Left -->
+                <div class="testimonials-marquee-track track-left">
+                    <!-- Testimonial 1: Elegant Look -->
+                    <div class="testimonial-card">
+                        <div class="quote-icon">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                            </svg>
+                        </div>
+                        <div class="testimonial-card-header">
+                            <div class="avatar-fallback">SS</div>
+                            <div class="author-info">
+                                <span class="name">Sanjay Shah</span>
+                                <span class="role">Founder, Elegant Look</span>
+                            </div>
+                        </div>
+                        <p class="quote">"Sanjay customized our store using Dawn. His custom Liquid sections are highly responsive, and the layout looks incredibly premium. Highly recommend!"</p>
+                    </div>
+
+                    <!-- Testimonial 2: One-11 Wine -->
+                    <div class="testimonial-card">
+                        <div class="quote-icon">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                            </svg>
+                        </div>
+                        <div class="testimonial-card-header">
+                            <div class="avatar-fallback">SJ</div>
+                            <div class="author-info">
+                                <span class="name">Sarah Jenkins</span>
+                                <span class="role">Operations, One-11 Wine</span>
+                            </div>
+                        </div>
+                        <p class="quote">"Perfect integration of Smile.io rewards and custom reviews on our Sello theme. Sanjay migrated all our products from WooCommerce flawlessly."</p>
+                    </div>
+
+                    <!-- Testimonial 3: 2GO-Shop -->
+                    <div class="testimonial-card">
+                        <div class="quote-icon">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                            </svg>
+                        </div>
+                        <div class="testimonial-card-header">
+                            <div class="avatar-fallback">MW</div>
+                            <div class="author-info">
+                                <span class="name">Markus Weber</span>
+                                <span class="role">Founder, 2GO-Shop</span>
+                            </div>
+                        </div>
+                        <p class="quote">"Outstanding migration from Magento to Shopify Concept theme. The site loading time dropped under 1.5s, and our sales conversion has spiked since launch."</p>
+                    </div>
+
+                    <!-- Duplicates for Row 1 -->
+                    <!-- Testimonial 1: Elegant Look -->
+                    <div class="testimonial-card">
+                        <div class="quote-icon">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                            </svg>
+                        </div>
+                        <div class="testimonial-card-header">
+                            <div class="avatar-fallback">SS</div>
+                            <div class="author-info">
+                                <span class="name">Sanjay Shah</span>
+                                <span class="role">Founder, Elegant Look</span>
+                            </div>
+                        </div>
+                        <p class="quote">"Sanjay customized our store using Dawn. His custom Liquid sections are highly responsive, and the layout looks incredibly premium. Highly recommend!"</p>
+                    </div>
+
+                    <!-- Testimonial 2: One-11 Wine -->
+                    <div class="testimonial-card">
+                        <div class="quote-icon">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                            </svg>
+                        </div>
+                        <div class="testimonial-card-header">
+                            <div class="avatar-fallback">SJ</div>
+                            <div class="author-info">
+                                <span class="name">Sarah Jenkins</span>
+                                <span class="role">Operations, One-11 Wine</span>
+                            </div>
+                        </div>
+                        <p class="quote">"Perfect integration of Smile.io rewards and custom reviews on our Sello theme. Sanjay migrated all our products from WooCommerce flawlessly."</p>
+                    </div>
+
+                    <!-- Testimonial 3: 2GO-Shop -->
+                    <div class="testimonial-card">
+                        <div class="quote-icon">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                            </svg>
+                        </div>
+                        <div class="testimonial-card-header">
+                            <div class="avatar-fallback">MW</div>
+                            <div class="author-info">
+                                <span class="name">Markus Weber</span>
+                                <span class="role">Founder, 2GO-Shop</span>
+                            </div>
+                        </div>
+                        <p class="quote">"Outstanding migration from Magento to Shopify Concept theme. The site loading time dropped under 1.5s, and our sales conversion has spiked since launch."</p>
+                    </div>
+                </div>
+
+                <!-- Row 2: Scrolling Right -->
+                <div class="testimonials-marquee-track track-right">
+                    <!-- Testimonial 4: Runr Kids -->
+                    <div class="testimonial-card">
+                        <div class="quote-icon">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                            </svg>
+                        </div>
+                        <div class="testimonial-card-header">
+                            <div class="avatar-fallback">PP</div>
+                            <div class="author-info">
+                                <span class="name">Priya Patel</span>
+                                <span class="role">Founder, Runr Kids</span>
+                            </div>
+                        </div>
+                        <p class="quote">"Flawless migration of our product catalog from WordPress to Shopify. Sanjay set up smart automated collections and structured our metafields beautifully."</p>
+                    </div>
+
+                    <!-- Testimonial 5: Infrared Heating UK -->
+                    <div class="testimonial-card">
+                        <div class="quote-icon">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                            </svg>
+                        </div>
+                        <div class="testimonial-card-header">
+                            <div class="avatar-fallback">JH</div>
+                            <div class="author-info">
+                                <span class="name">James Harrison</span>
+                                <span class="role">Director, Infrared Heating UK</span>
+                            </div>
+                        </div>
+                        <p class="quote">"Sanjay created custom Shopify product templates to showcase our complex technical specifications dynamically. Excellent communication and code quality."</p>
+                    </div>
+
+                    <!-- Testimonial 6: Bügelbrettbezüge Eisele -->
+                    <div class="testimonial-card">
+                        <div class="quote-icon">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                            </svg>
+                        </div>
+                        <div class="testimonial-card-header">
+                            <div class="avatar-fallback">AE</div>
+                            <div class="author-info">
+                                <span class="name">Andreas Eisele</span>
+                                <span class="role">CEO, Eisele</span>
+                            </div>
+                        </div>
+                        <p class="quote">"The custom mobile drawer navigation and megamenu are fantastic. Our German customers love the clean layout and smooth checkout flow."</p>
+                    </div>
+
+                    <!-- Duplicates for Row 2 -->
+                    <!-- Testimonial 4: Runr Kids -->
+                    <div class="testimonial-card">
+                        <div class="quote-icon">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                            </svg>
+                        </div>
+                        <div class="testimonial-card-header">
+                            <div class="avatar-fallback">PP</div>
+                            <div class="author-info">
+                                <span class="name">Priya Patel</span>
+                                <span class="role">Founder, Runr Kids</span>
+                            </div>
+                        </div>
+                        <p class="quote">"Flawless migration of our product catalog from WordPress to Shopify. Sanjay set up smart automated collections and structured our metafields beautifully."</p>
+                    </div>
+
+                    <!-- Testimonial 5: Infrared Heating UK -->
+                    <div class="testimonial-card">
+                        <div class="quote-icon">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                            </svg>
+                        </div>
+                        <div class="testimonial-card-header">
+                            <div class="avatar-fallback">JH</div>
+                            <div class="author-info">
+                                <span class="name">James Harrison</span>
+                                <span class="role">Director, Infrared Heating UK</span>
+                            </div>
+                        </div>
+                        <p class="quote">"Sanjay created custom Shopify product templates to showcase our complex technical specifications dynamically. Excellent communication and code quality."</p>
+                    </div>
+
+                    <!-- Testimonial 6: Bügelbrettbezüge Eisele -->
+                    <div class="testimonial-card">
+                        <div class="quote-icon">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                            </svg>
+                        </div>
+                        <div class="testimonial-card-header">
+                            <div class="avatar-fallback">AE</div>
+                            <div class="author-info">
+                                <span class="name">Andreas Eisele</span>
+                                <span class="role">CEO, Eisele</span>
+                            </div>
+                        </div>
+                        <p class="quote">"The custom mobile drawer navigation and megamenu are fantastic. Our German customers love the clean layout and smooth checkout flow."</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-v2" id="footer-v2">
+
+        <!-- Animated Background Grid -->
+        <div class="footer-grid-bg">
+            <canvas class="footer-grid-canvas" id="footerCanvas"></canvas>
+        </div>
+
+        <!-- Ambient Glow Orbs -->
+        <div class="footer-orb footer-orb-1"></div>
+        <div class="footer-orb footer-orb-2"></div>
+
+        <!-- CTA Section -->
+        <div class="footer-cta-section">
+
+            <!-- LEFT: Headline + Button + Status -->
+            <div class="footer-cta-inner">
+                <p class="footer-cta-label">READY TO CREATE?</p>
+                <h2 class="footer-cta-headline">
+                    <span class="footer-cta-line">Have a project?</span>
+                    <span class="footer-cta-line footer-cta-line-muted">Let's talk.</span>
+                </h2>
+                <div class="footer-cta-actions">
+                    <a href="#contact" class="footer-cta-btn" id="footer-cta-btn">
+                        <span class="footer-btn-text">Start a Project</span>
+                        <span class="footer-btn-icon">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="7" y1="17" x2="17" y2="7"></line>
+                                <polyline points="7 7 17 7 17 17"></polyline>
+                            </svg>
+                        </span>
+                        <span class="footer-btn-ripple"></span>
+                    </a>
+                    <!-- Status Badge -->
+                    <div class="footer-status-badge">
+                        <span class="footer-status-dot"></span>
+                        <span>Available for new projects</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT: Quick Info Panel -->
+            <div class="footer-info-panel">
+
+                <!-- Stats Row -->
+                <div class="footer-stats-row" id="footer-stats-row">
+                    <div class="footer-stat-item">
+                        <span class="footer-stat-num" data-target="20" data-suffix="+"><span
+                                class="footer-stat-count">0</span><span class="footer-stat-plus">+</span></span>
+                        <span class="footer-stat-label">Projects Delivered</span>
+                    </div>
+                    <div class="footer-stat-divider"></div>
+                    <div class="footer-stat-item">
+                        <span class="footer-stat-num" data-target="1" data-suffix="+"><span
+                                class="footer-stat-count">0</span><span class="footer-stat-plus">+</span></span>
+                        <span class="footer-stat-label">Years Experience</span>
+                    </div>
+                    <div class="footer-stat-divider"></div>
+                    <div class="footer-stat-item">
+                        <span class="footer-stat-num" data-target="2" data-suffix="+"><span
+                                class="footer-stat-count">0</span><span class="footer-stat-plus">+</span></span>
+                        <span class="footer-stat-label">Countries Served</span>
+                    </div>
+                </div>
+
+                <!-- Info Cards Grid -->
+                <div class="footer-info-grid">
+
+                    <!-- Quick Links -->
+                    <div class="footer-info-card">
+                        <p class="footer-info-card-title">QUICK LINKS</p>
+                        <ul class="footer-quick-links">
+                            <li><a href="#portfolio">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <polyline points="9 18 15 12 9 6" />
+                                    </svg>
+                                    Portfolio
+                                </a></li>
+                            <li><a href="#services">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <polyline points="9 18 15 12 9 6" />
+                                    </svg>
+                                    Services
+                                </a></li>
+                            <li><a href="#about">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <polyline points="9 18 15 12 9 6" />
+                                    </svg>
+                                    About Me
+                                </a></li>
+                            <li><a href="#insights">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <polyline points="9 18 15 12 9 6" />
+                                    </svg>
+                                    Insights
+                                </a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="footer-info-card">
+                        <p class="footer-info-card-title">GET IN TOUCH</p>
+                        <ul class="footer-contact-list">
+                            <li>
+                                <span class="footer-contact-icon">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                        <polyline points="22,6 12,13 2,6" />
+                                    </svg>
+                                </span>
+                                <a href="mailto:chauhan2002sanjay@gmail.com">chauhan2002sanjay@gmail.com</a>
+                            </li>
+                            <li>
+                                <span class="footer-contact-icon">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                        <circle cx="12" cy="10" r="3" />
+                                    </svg>
+                                </span>
+                                <span>Bhavnagar, Gujarat</span>
+                            </li>
+                            <li>
+                                <span class="footer-contact-icon">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10" />
+                                        <polyline points="12 6 12 12 16 14" />
+                                    </svg>
+                                </span>
+                                <span>Mon–Sun · 9am – 8pm</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Marquee Ticker -->
+        <div class="footer-marquee-wrap">
+            <div class="footer-marquee-track">
+                <span class="footer-marquee-item">BRAND IDENTITY</span>
+                <span class="footer-marquee-sep">✦</span>
+                <span class="footer-marquee-item">WEB DESIGN</span>
+                <span class="footer-marquee-sep">✦</span>
+                <span class="footer-marquee-item">UX STRATEGY</span>
+                <span class="footer-marquee-sep">✦</span>
+                <span class="footer-marquee-item">SHOPIFY DEVELOPMENT</span>
+                <span class="footer-marquee-sep">✦</span>
+                <span class="footer-marquee-item">VISUAL CONTENT</span>
+                <span class="footer-marquee-sep">✦</span>
+                <span class="footer-marquee-item">BRAND IDENTITY</span>
+                <span class="footer-marquee-sep">✦</span>
+                <span class="footer-marquee-item">WEB DESIGN</span>
+                <span class="footer-marquee-sep">✦</span>
+                <span class="footer-marquee-item">UX STRATEGY</span>
+                <span class="footer-marquee-sep">✦</span>
+                <span class="footer-marquee-item">SHOPIFY DEVELOPMENT</span>
+                <span class="footer-marquee-sep">✦</span>
+                <span class="footer-marquee-item">VISUAL CONTENT</span>
+                <span class="footer-marquee-sep">✦</span>
+            </div>
+        </div>
+
+        <!-- Divider Line -->
+        <div class="footer-divider"></div>
+
+        <!-- Footer Bottom Bar -->
+        <div class="footer-bottom-bar">
+            <div class="footer-bottom-left">
+                <a href="index.html" class="footer-logo-mark">
+                    <img src="images/Logo.png" alt="Sanjay Chauhan Logo" width="120" style="height: auto; max-height: 55px; object-fit: contain;">
+                </a>
+            </div>
+
+            <div class="footer-bottom-center">
+                <p class="footer-copyright">&copy; 2026 Sanjay Chauhan. All rights reserved.</p>
+            </div>
+
+            <div class="footer-bottom-right">
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/sanju_pvt.1?igsh=MTgzN2tyNnQ0bGJ0bA==" class="footer-social-pill" aria-label="Instagram">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                        </svg>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://wa.me/918160008766" target="_blank" rel="noopener noreferrer" class="footer-social-pill" aria-label="WhatsApp">
+                        <svg width="16" height="16" viewBox="0 0 64 64" fill="none" stroke="currentColor"
+                            stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M30.287 2.029A29.769 29.769 0 0 0 5.223 45.266L2.064 60.6a1.158 1.158 0 0 0 1.4 1.361L18.492 58.4A29.76 29.76 0 1 0 30.287 2.029z" />
+                            <path d="M46.184 38.205l-5.765-1.655a2.149 2.149 0 0 0-2.126.561l-1.41 1.436a2.1 2.1 0 0 1-2.283.482c-2.727-1.1-8.463-6.2-9.927-8.754a2.1 2.1 0 0 1 .166-2.328l1.23-1.592a2.148 2.148 0 0 0 .265-2.183l-2.424-5.485a2.149 2.149 0 0 0-3.356-.769c-1.609 1.361-3.517 3.428-3.749 5.719-.409 4.039 1.323 9.13 7.872 15.242 7.566 7.063 13.626 8 17.571 7.04 2.238-.542 4.026-2.714 5.154-4.493a2.15 2.15 0 0 0-1.218-3.221z" />
+                        </svg>
+                        <span>WhatsApp</span>
+                    </a>
+                    <a href="www.linkedin.com/in/chauhan-sanjay-128ab127a" class="footer-social-pill" aria-label="LinkedIn">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                            <rect x="2" y="9" width="4" height="12" />
+                            <circle cx="4" cy="4" r="2" />
+                        </svg>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Contact Drawer -->
+    <div class="contact-drawer-overlay" id="contact-drawer-overlay"></div>
+    <div class="contact-drawer" id="contact-drawer">
+        <div class="contact-drawer-header">
+            <div>
+                <p class="contact-drawer-subtitle">GET IN TOUCH</p>
+                <h3 class="contact-drawer-title">Start a Project</h3>
+            </div>
+            <button class="contact-drawer-close" id="contact-drawer-close" aria-label="Close contact form">✕</button>
+        </div>
+        <div class="contact-drawer-body">
+            <form id="contact-form" class="contact-form" method="POST">
+                <input type="hidden" name="access_key" value="9b048e30-bd02-497e-9116-a5c17384e111">
+                <input type="hidden" name="subject" value="New Project Inquiry - Sanjay Chauhan">
+                <input type="hidden" name="from_name" value="Sanjay Chauhan Portfolio">
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                <!-- Form Inputs Grid -->
+                <div class="form-inputs-grid">
+                    <div class="form-group-capsule">
+                        <input type="text" name="name" id="contact-name" placeholder=" " required>
+                        <label for="contact-name">Your Name</label>
+                    </div>
+
+                    <div class="form-group-capsule">
+                        <input type="email" name="email" id="contact-email" placeholder=" " required>
+                        <label for="contact-email">Your Email</label>
+                    </div>
+
+                    <div class="form-group-capsule full-width">
+                        <input type="text" name="website" id="contact-website" placeholder=" ">
+                        <label for="contact-website">Website / Company (Optional)</label>
+                    </div>
+                </div>
+
+                <!-- Services Custom Select Dropdown -->
+                <div class="form-group-capsule custom-select-container">
+                    <input type="hidden" name="service" id="contact-service">
+                    <div class="custom-select-trigger" id="contact-service-trigger">
+                        <span class="custom-select-value"></span>
+                        <label class="custom-select-label">What do you need help with?</label>
+                        <svg class="custom-select-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div class="custom-select-dropdown">
+                        <div class="custom-select-option" data-value="Custom Shopify Theme">Custom Shopify Theme</div>
+                        <div class="custom-select-option" data-value="Store Migration">Store Migration</div>
+                        <div class="custom-select-option" data-value="Conversion Optimization">Conversion Rate
+                            Optimization</div>
+                        <div class="custom-select-option" data-value="Theme Customization">Theme Tweaks</div>
+                        <div class="custom-select-option" data-value="Custom Integrations">Custom Apps / Integrations
+                        </div>
+                        <div class="custom-select-option" data-value="Monthly Support / Retainer">Monthly Support</div>
+                        <div class="custom-select-option" data-value="Other">Other</div>
+                    </div>
+                </div>
+
+
+
+                <!-- Project Details Capsule -->
+                <div class="form-group-capsule">
+                    <textarea name="message" id="contact-message" rows="4" placeholder=" " required></textarea>
+                    <label for="contact-message">Tell us about your project goals</label>
+                </div>
+
+                <button type="submit" class="contact-submit-btn" id="contact-submit-btn">
+                    <span class="btn-text">Send Message</span>
+                    <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+            </form>
+
+            <!-- Success State -->
+            <div class="contact-success-state" id="contact-success-state">
+                <div class="success-icon-wrap">
+                    <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                        <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none" />
+                        <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                    </svg>
+                </div>
+                <h4>Message Sent Successfully!</h4>
+                <p>Thank you for reaching out, Sanjay. We will review your project details and get back to you within 24
+                    hours.</p>
+                <button class="btn-close-success" id="btn-close-success">Close Drawer</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- WhatsApp Floating Chat Widget -->
+    <div class="wa-chat-widget" id="wa-chat-widget">
+        <!-- Slide-in Arrow Tab (Visible on right edge first) -->
+        <button class="wa-chat-tab" id="wa-chat-tab" aria-label="Open Chat Mascot">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+            <span class="wa-tab-pulse"></span>
+        </button>
+
+        <!-- Floating Mascot Trigger Button (Hidden outside by default) -->
+        <button class="wa-chat-trigger wa-mascot-trigger" id="wa-chat-trigger" aria-label="Open WhatsApp Chat">
+            <svg class="wa-mascot-svg" width="65" height="65" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <!-- Headset Band -->
+                <path class="wa-mascot-headband" d="M 25,50 A 25,25 0 0,1 75,50" fill="none" stroke="#cca43b" stroke-width="4" stroke-linecap="round" />
+                <!-- Antenna -->
+                <line class="wa-mascot-antenna-line" x1="50" y1="28" x2="50" y2="15" stroke="#25D366" stroke-width="4" stroke-linecap="round" />
+                <circle class="wa-mascot-antenna-bulb" cx="50" cy="12" r="6" fill="#25D366" />
+                <!-- Robot Head -->
+                <rect class="wa-mascot-head" x="25" y="28" width="50" height="42" rx="15" fill="#1a1a1a" stroke="#25D366" stroke-width="4.5" />
+                <!-- Headset Earcups -->
+                <rect class="wa-mascot-earcup left" x="18" y="42" width="8" height="18" rx="4" fill="#cca43b" />
+                <rect class="wa-mascot-earcup right" x="74" y="42" width="8" height="18" rx="4" fill="#cca43b" />
+                <!-- Eyes Display Screen -->
+                <rect class="wa-mascot-screen" x="33" y="38" width="34" height="16" rx="8" fill="#0f0f0f" />
+                <!-- Eyes (Blinking animation via CSS) -->
+                <circle class="wa-mascot-eye left" cx="42" cy="46" r="4" fill="#25D366" />
+                <circle class="wa-mascot-eye right" cx="58" cy="46" r="4" fill="#25D366" />
+                <!-- Mouth (Smiling wave) -->
+                <path class="wa-mascot-mouth" d="M 44,60 Q 50,65 56,60" fill="none" stroke="#25D366" stroke-width="3" stroke-linecap="round" />
+            </svg>
+            <span class="wa-chat-pulse"></span>
+        </button>
+
+        <!-- Chat Box -->
+        <div class="wa-chat-box" id="wa-chat-box">
+            <!-- Header -->
+            <div class="wa-chat-header">
+                <div class="wa-chat-profile">
+                    <div class="wa-chat-avatar-wrap">
+                        <div class="wa-chat-avatar">
+                            <img src="images/Sanjay-img.png" alt="Sanjay Chauhan" />
+                        </div>
+                        <span class="wa-chat-status-dot"></span>
+                    </div>
+                    <div class="wa-chat-meta">
+                        <h4>Sanjay Chauhan</h4>
+                        <p>Online · Replies instantly</p>
+                    </div>
+                </div>
+                <button class="wa-chat-close" id="wa-chat-close" aria-label="Close Chat">&times;</button>
+            </div>
+
+            <!-- Messages Area -->
+            <div class="wa-chat-body">
+                <!-- Typing Indicator (Visible first) -->
+                <div class="wa-typing-indicator" id="wa-typing-indicator">
+                    <div class="wa-typing-profile">
+                        <div class="wa-typing-avatar">
+                            <img src="images/Sanjay-img.png" alt="Sanjay Chauhan" />
+                        </div>
+                    </div>
+                    <div class="wa-typing-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <!-- Real message bubble (Hidden by default, will fade in) -->
+                <div class="wa-message wa-message-incoming wa-msg-delayed" id="wa-msg-delayed" style="display: none; opacity: 0;">
+                    <div class="wa-message-content">
+                        <p>Hi there! 👋 How can I help you with your custom Shopify store or Liquid development today?</p>
+                        <span class="wa-message-time">Just now</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Input -->
+            <div class="wa-chat-footer">
+                <input type="text" id="wa-chat-input" placeholder="Type a message..." aria-label="Type message for WhatsApp">
+                <button id="wa-chat-send" aria-label="Send to WhatsApp">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.32/dist/lenis.min.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+
+</html>

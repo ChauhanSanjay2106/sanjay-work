@@ -1,0 +1,92 @@
+<svg width="400" height="500" viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FCFAF6"/>
+      <stop offset="100%" stop-color="#ECE5D8"/>
+    </radialGradient>
+    
+    <!-- 3D Shopify Green Gradient -->
+    <linearGradient id="shopifyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A2D783"/>
+      <stop offset="30%" stop-color="#7AB55C"/>
+      <stop offset="100%" stop-color="#4E8233"/>
+    </linearGradient>
+
+    <!-- 3D Reflective Gold Gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2CE"/>
+      <stop offset="30%" stop-color="#E5BA42"/>
+      <stop offset="70%" stop-color="#B28A18"/>
+      <stop offset="100%" stop-color="#E5BA42"/>
+    </linearGradient>
+
+    <!-- Glass gloss overlay -->
+    <linearGradient id="glassGloss" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- High-end drop shadow -->
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#544B3D" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="500" rx="20" fill="url(#bgGrad)"/>
+  
+  <!-- Grid Lines -->
+  <path d="M80 0V500M160 0V500M240 0V500M320 0V500" stroke="#E3DACB" stroke-width="1.5" opacity="0.6"/>
+  <path d="M0 100H400M0 200H400M0 300H400M0 400H400" stroke="#E3DACB" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Connection Lines (Gold/Beige Pipes) -->
+  <path d="M85 155 L200 235 M315 155 L200 235 M100 315 L200 235 M300 315 L200 235" stroke="#C5BBAA" stroke-width="3" stroke-dasharray="6 4"/>
+  <path d="M200 235 L200 120" stroke="url(#goldGrad)" stroke-width="4"/>
+
+  <!-- Glowing orb -->
+  <circle cx="200" cy="235" r="110" fill="#7AB55C" opacity="0.08" filter="blur(35px)"/>
+
+  <!-- Shopify Bag (Center) -->
+  <g transform="translate(155, 185)" filter="url(#shadow)">
+    <!-- Bag Handle -->
+    <path d="M35 15 C35 -5, 55 -5, 55 15" fill="none" stroke="#7AB55C" stroke-width="5" stroke-linecap="round"/>
+    <path d="M35 15 C35 -5, 55 -5, 55 15" fill="none" stroke="#FFF" stroke-width="1" opacity="0.5" stroke-linecap="round"/>
+    <!-- Bag Body -->
+    <path d="M15 20 L75 20 L68 98 L22 98 Z" fill="url(#shopifyGrad)"/>
+    <!-- Highlight Overlay -->
+    <path d="M15 20 L75 20 L68 98 L22 98 Z" fill="url(#glassGloss)" opacity="0.4"/>
+    <!-- Shopify S logo -->
+    <path d="M43 45 C43 38, 48 38, 48 43 C48 48, 41 47, 41 53 C41 58, 48 58, 48 53" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Connected App Blocks -->
+  <!-- Top Left -->
+  <g transform="translate(50, 110)" filter="url(#shadow)">
+    <rect width="60" height="60" rx="12" fill="#FFFFFF" stroke="url(#goldGrad)" stroke-width="2"/>
+    <rect width="60" height="60" rx="12" fill="url(#glassGloss)" opacity="0.3"/>
+    <path d="M24 30 H36 M30 24 V36" stroke="#7AB55C" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+  <!-- Top Right -->
+  <g transform="translate(290, 110)" filter="url(#shadow)">
+    <rect width="60" height="60" rx="12" fill="#FFFFFF" stroke="url(#shopifyGrad)" stroke-width="2"/>
+    <rect width="60" height="60" rx="12" fill="url(#glassGloss)" opacity="0.3"/>
+    <circle cx="30" cy="30" r="10" fill="url(#goldGrad)"/>
+  </g>
+  <!-- Bottom Left -->
+  <g transform="translate(60, 290)" filter="url(#shadow)">
+    <rect width="60" height="60" rx="12" fill="#FFFFFF" stroke="url(#shopifyGrad)" stroke-width="2"/>
+    <rect width="60" height="60" rx="12" fill="url(#glassGloss)" opacity="0.3"/>
+    <circle cx="30" cy="30" r="10" fill="#7AB55C" opacity="0.2"/>
+  </g>
+  <!-- Bottom Right -->
+  <g transform="translate(280, 290)" filter="url(#shadow)">
+    <rect width="60" height="60" rx="12" fill="#FFFFFF" stroke="url(#goldGrad)" stroke-width="2"/>
+    <rect width="60" height="60" rx="12" fill="url(#glassGloss)" opacity="0.3"/>
+    <path d="M22 26 L38 26 M22 34 L34 34" stroke="#689F38" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Service Text -->
+  <text x="200" y="465" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="800" fill="#3D362A" letter-spacing="1">MODULAR APP &amp; API SYNC</text>
+</svg>

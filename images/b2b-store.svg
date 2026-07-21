@@ -1,0 +1,84 @@
+<svg width="400" height="500" viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FCFAF6"/>
+      <stop offset="100%" stop-color="#ECE5D8"/>
+    </radialGradient>
+    
+    <!-- 3D Shopify Green Gradient -->
+    <linearGradient id="shopifyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A2D783"/>
+      <stop offset="30%" stop-color="#7AB55C"/>
+      <stop offset="100%" stop-color="#4E8233"/>
+    </linearGradient>
+
+    <!-- 3D Reflective Gold Gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2CE"/>
+      <stop offset="30%" stop-color="#E5BA42"/>
+      <stop offset="70%" stop-color="#B28A18"/>
+      <stop offset="100%" stop-color="#E5BA42"/>
+    </linearGradient>
+
+    <!-- Glass gloss overlay -->
+    <linearGradient id="glassGloss" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- High-end drop shadow -->
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#544B3D" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="500" rx="20" fill="url(#bgGrad)"/>
+  
+  <!-- Grid Lines -->
+  <path d="M80 0V500M160 0V500M240 0V500M320 0V500" stroke="#E3DACB" stroke-width="1.5" opacity="0.6"/>
+  <path d="M0 100H400M0 200H400M0 300H400M0 400H400" stroke="#E3DACB" stroke-width="1.5" opacity="0.6"/>
+
+  <path d="M50 350 H350" stroke="#7AB55C" stroke-width="3" opacity="0.3"/>
+
+  <!-- Glowing orb -->
+  <circle cx="200" cy="230" r="110" fill="#7AB55C" opacity="0.08" filter="blur(35px)"/>
+
+  <!-- Heavy Wooden Cargo Crates (B2B Bulk Metaphor) -->
+  <g transform="translate(60, 215)" filter="url(#shadow)">
+    <!-- Crate Body -->
+    <rect width="115" height="115" rx="6" fill="#C5B296" stroke="#9A8367" stroke-width="3.5"/>
+    <!-- Diagonal Bracing -->
+    <path d="M10 10 L105 105 M10 105 L105 1" stroke="#9A8367" stroke-width="4.5"/>
+    <!-- Metal Gold Corner Reinforcement brackets -->
+    <rect x="-2" y="-2" width="18" height="18" fill="url(#goldGrad)"/>
+    <rect x="99" y="-2" width="18" height="18" fill="url(#goldGrad)"/>
+    <rect x="-2" y="99" width="18" height="18" fill="url(#goldGrad)"/>
+    <rect x="99" y="99" width="18" height="18" fill="url(#goldGrad)"/>
+  </g>
+
+  <!-- Large Shopify Bag (Front right) -->
+  <g transform="translate(195, 155)" filter="url(#shadow)">
+    <!-- Bag Handle -->
+    <path d="M45 20 C45 -5, 75 -5, 75 20" fill="none" stroke="#7AB55C" stroke-width="5" stroke-linecap="round"/>
+    <path d="M45 20 C45 -5, 75 -5, 75 20" fill="none" stroke="#FFF" stroke-width="1" opacity="0.5" stroke-linecap="round"/>
+    <!-- Bag Body -->
+    <path d="M20 25 L100 25 L90 128 L30 128 Z" fill="url(#shopifyGrad)"/>
+    <!-- Highlight Overlay -->
+    <path d="M20 25 L100 25 L90 128 L30 128 Z" fill="url(#glassGloss)" opacity="0.4"/>
+    <!-- Shopify S logo -->
+    <path d="M57 55 C57 46, 64 46, 64 53 C64 60, 54 59, 54 67 C54 74, 64 74, 64 67" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- B2B Wholesale Pill Badge -->
+  <g transform="translate(235, 275)" filter="url(#shadow)">
+    <rect width="115" height="36" rx="18" fill="url(#goldGrad)"/>
+    <rect width="115" height="36" rx="18" fill="url(#glassGloss)" opacity="0.3"/>
+    <text x="57" y="22" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="900" fill="#29241C" letter-spacing="1">B2B PORTAL</text>
+  </g>
+
+  <!-- Service Text -->
+  <text x="200" y="465" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="800" fill="#3D362A" letter-spacing="1">ENTERPRISE B2B &amp; WHOLESALE</text>
+</svg>
